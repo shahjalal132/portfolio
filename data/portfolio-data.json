@@ -5,11 +5,7 @@
     "settings": {
       "locale": "en",
       "layout": "single-page",
-      "audience": [
-        "hiring-managers",
-        "technical-leads",
-        "internal-recruiters"
-      ],
+      "audience": ["hiring-managers", "technical-leads", "internal-recruiters"],
       "sectionOrder": [
         "about",
         "experience",
@@ -325,12 +321,7 @@
         "featured": true,
         "name": "RiceStream: Inventory and Financial Management System",
         "url": "https://arod.streetfashioner.com/",
-        "technologies": [
-          "Laravel",
-          "React.js",
-          "Inertia.js",
-          "MySQL"
-        ],
+        "technologies": ["Laravel", "React.js", "Inertia.js", "MySQL"],
         "highlights": [
           {
             "label": "ERP Development",
@@ -364,11 +355,7 @@
         "featured": true,
         "name": "AI-Powered Bilingual QA and Compliance Engine",
         "url": "https://api.sbec.cymru/",
-        "technologies": [
-          "Laravel 13",
-          "Gemini",
-          "Redis"
-        ],
+        "technologies": ["Laravel 13", "Gemini", "Redis"],
         "highlights": [
           {
             "label": "High-Scale Auditing",
@@ -394,12 +381,7 @@
         "featured": false,
         "name": "WooCommerce Multi-Tier Reseller and Ledger System",
         "url": "https://resellerhubbd.com/",
-        "technologies": [
-          "PHP",
-          "WooCommerce",
-          "MySQL",
-          "AJAX"
-        ],
+        "technologies": ["PHP", "WooCommerce", "MySQL", "AJAX"],
         "highlights": [
           {
             "label": "Financial Engineering",
@@ -464,10 +446,7 @@
         "groups": [
           {
             "label": "Frameworks",
-            "items": [
-              "Laravel PHP",
-              "Express.js"
-            ]
+            "items": ["Laravel PHP", "Express.js"]
           },
           {
             "label": "WordPress Core",
@@ -497,13 +476,7 @@
         "groups": [
           {
             "label": "Modern Frameworks",
-            "items": [
-              "React.js",
-              "Inertia.js",
-              "Alpine.js",
-              "HTMX",
-              "jQuery"
-            ]
+            "items": ["React.js", "Inertia.js", "Alpine.js", "HTMX", "jQuery"]
           },
           {
             "label": "Styling and Design",
@@ -579,12 +552,7 @@
           },
           {
             "label": "Workflow Tools",
-            "items": [
-              "Git",
-              "WP-CLI",
-              "Postman",
-              "PM2"
-            ]
+            "items": ["Git", "WP-CLI", "Postman", "PM2"]
           }
         ]
       },

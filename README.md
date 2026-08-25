@@ -8,11 +8,21 @@ The portfolio is designed as a clean, white, single-page experience. Content, vi
 
 ```text
 portfolio/
+|-- app/
+|   |-- layout.tsx
+|   |-- page.tsx
+|   |-- robots.ts
+|   `-- sitemap.ts
 |-- data/
 |   `-- portfolio-data.json
+|-- lib/
+|   |-- portfolio.ts
+|   |-- site.ts
+|   `-- theme.ts
 |-- themes/
 |   |-- corporate-cobalt.json
 |   `-- tech-stack.json
+|-- package.json
 `-- README.md
 ```
 
@@ -41,7 +51,7 @@ portfolio/
 
 ### Technology specification
 
-`themes/tech-stack.json` documents the planned application architecture:
+`themes/tech-stack.json` documents the application architecture:
 
 - Next.js App Router
 - React and TypeScript
@@ -82,7 +92,40 @@ Date values use the `YYYY-MM` format:
 
 For a completed role, provide an end date and set `isCurrent` to `false`. Stable IDs should not be changed after an entry is published because the application may use them for navigation, filtering, and structured data.
 
-## Planned Application Flow
+## Local Development
+
+Requirements:
+
+- An active Node.js LTS release
+- pnpm
+
+Install dependencies and start the development server:
+
+```bash
+pnpm install
+pnpm dev
+```
+
+Open `http://localhost:3000` in your browser.
+
+Before submitting changes, run:
+
+```bash
+pnpm lint
+pnpm typecheck
+pnpm format:check
+pnpm build
+```
+
+Set the production URL when preparing a deployment:
+
+```bash
+NEXT_PUBLIC_SITE_URL=https://your-domain.example
+```
+
+The application works locally without this variable and uses `http://localhost:3000` as its development fallback.
+
+## Application Flow
 
 ```text
 Portfolio JSON + Theme JSON
@@ -102,7 +145,9 @@ Portfolio JSON + Theme JSON
 
 ## Project Status
 
-The structured portfolio data, visual theme, and technology specification are complete. The next phase is to scaffold the Next.js application and connect its components directly to these JSON sources.
+The Next.js foundation is installed and connected to the portfolio and theme JSON files. The application currently includes a responsive data-driven homepage, build-time Zod validation, static rendering, metadata, JSON-LD, sitemap generation, robots rules, accessible theme tokens, and reduced-motion support.
+
+The next phase is visual review, component refinement, browser testing, final domain configuration, and Vercel deployment.
 
 ## Author
 

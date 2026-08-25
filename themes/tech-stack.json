@@ -27,10 +27,7 @@
     },
     "uiLibrary": {
       "name": "React",
-      "packages": [
-        "react",
-        "react-dom"
-      ],
+      "packages": ["react", "react-dom"],
       "versionPolicy": "framework-compatible"
     },
     "language": {
@@ -89,21 +86,11 @@
   "typography": {
     "primary": {
       "name": "Geist Sans",
-      "usage": [
-        "headings",
-        "body copy",
-        "navigation",
-        "buttons"
-      ]
+      "usage": ["headings", "body copy", "navigation", "buttons"]
     },
     "monospace": {
       "name": "Geist Mono",
-      "usage": [
-        "dates",
-        "metrics",
-        "technology labels",
-        "metadata"
-      ]
+      "usage": ["dates", "metrics", "technology labels", "metadata"]
     },
     "loading": "next-font"
   },
@@ -119,12 +106,7 @@
       "mobile navigation",
       "active layout indicator"
     ],
-    "useCssFor": [
-      "button hover",
-      "card hover",
-      "link color",
-      "focus state"
-    ],
+    "useCssFor": ["button hover", "card hover", "link color", "focus state"],
     "respectReducedMotion": true,
     "bundleStrategy": "lazy-and-minimal"
   },
@@ -135,12 +117,7 @@
   },
   "seo": {
     "metadata": "nextjs-metadata-api",
-    "structuredData": [
-      "Person",
-      "ProfilePage",
-      "WebSite",
-      "CreativeWork"
-    ],
+    "structuredData": ["Person", "ProfilePage", "WebSite", "CreativeWork"],
     "files": [
       "app/sitemap.ts",
       "app/robots.ts",
