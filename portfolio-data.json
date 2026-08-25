@@ -1,0 +1,677 @@
+{
+  "schemaVersion": "1.0.0",
+  "lastUpdated": "2026-08-26",
+  "portfolio": {
+    "settings": {
+      "locale": "en",
+      "layout": "single-page",
+      "audience": [
+        "hiring-managers",
+        "technical-leads",
+        "internal-recruiters"
+      ],
+      "sectionOrder": [
+        "about",
+        "experience",
+        "projects",
+        "skills",
+        "education",
+        "certifications",
+        "languages"
+      ],
+      "navigation": [
+        {
+          "id": "about",
+          "label": "About"
+        },
+        {
+          "id": "experience",
+          "label": "Experience"
+        },
+        {
+          "id": "projects",
+          "label": "Projects"
+        },
+        {
+          "id": "skills",
+          "label": "Skills"
+        },
+        {
+          "id": "education",
+          "label": "Education"
+        }
+      ],
+      "featuredProjectIds": [
+        "nursery-rhyme-video-automation",
+        "trading-chart-lms",
+        "ricestream",
+        "bilingual-qa-compliance-engine"
+      ]
+    },
+    "profile": {
+      "name": "Muhammad Shah Jalal",
+      "headline": "Software Developer",
+      "location": {
+        "city": "Dhaka",
+        "country": "Bangladesh",
+        "display": "Dhaka, Bangladesh"
+      },
+      "contact": {
+        "email": "rishajalal132@gmail.com",
+        "phone": "+8801759277132",
+        "links": [
+          {
+            "id": "github",
+            "label": "GitHub",
+            "url": "https://github.com/shahjalal132"
+          }
+        ]
+      },
+      "summary": "Full-Stack Software Developer with 4+ years of hands-on web development experience, including 3+ years across documented professional roles. Brings over 3 years of experience with WordPress and WooCommerce and more than 2 years specializing in Laravel. Skilled in building scalable web applications, custom e-commerce platforms, REST APIs, backend integrations, and optimized database solutions. Currently focused on AI-assisted development and workflow automation using Codex, Claude, and open-source local LLMs, with practical experience in AI model evaluation, quality assurance, and autonomous multi-platform workflows.",
+      "focusAreas": [
+        "Laravel application development",
+        "WordPress and WooCommerce development",
+        "AI-assisted development",
+        "Workflow automation",
+        "Backend integrations",
+        "Quality assurance and model evaluation"
+      ]
+    },
+    "experience": [
+      {
+        "id": "strontium-corp-technical-support-engineer",
+        "order": 1,
+        "company": "Strontium Corp",
+        "companyUrl": "https://strontiumcorp.com/",
+        "role": "Technical Support Engineer",
+        "location": {
+          "region": "Ontario",
+          "country": "Canada",
+          "display": "Ontario, Canada"
+        },
+        "period": {
+          "start": "2026-06",
+          "end": null,
+          "isCurrent": true,
+          "display": "Jun 2026 - Present"
+        },
+        "highlights": [
+          {
+            "label": "Technical Support",
+            "description": "Provide timely technical assistance to users by troubleshooting issues, explaining product functionality, and guiding them through AI-focused workflows."
+          },
+          {
+            "label": "Quality Assurance",
+            "description": "Test product features and workflows, identify defects and usability issues, and prepare detailed reports to support timely resolution."
+          },
+          {
+            "label": "AI and ML Model Evaluation",
+            "description": "Collaborate with the machine learning team to test and explore open-source local models, document findings, and recommend suitable models and improvements."
+          },
+          {
+            "label": "AI Workflow Automation",
+            "description": "Design and test AI-powered automation workflows for end users, including Nursery Rhyme Music Video and Vox-Style Documentary.",
+            "relatedLinks": [
+              {
+                "label": "Nursery Rhyme Music Video",
+                "url": "https://github.com/strontiumcorp/nursery_rhyme_music_video"
+              },
+              {
+                "label": "Vox-Style Documentary",
+                "url": "https://github.com/strontiumcorp/vox-style-documentary"
+              }
+            ]
+          },
+          {
+            "label": "Development Support",
+            "description": "Collaborate with the development team to complete low- and medium-priority tasks, resolve technical issues, and improve product stability."
+          },
+          {
+            "label": "Feature Research and Improvement",
+            "description": "Research emerging AI technologies and potential product features, providing practical recommendations to enhance functionality and user experience."
+          }
+        ]
+      },
+      {
+        "id": "sbec-software-developer",
+        "order": 2,
+        "company": "Sbec",
+        "companyUrl": "https://sbec.cymru/",
+        "role": "Software Developer",
+        "location": {
+          "region": "Wales",
+          "country": "United Kingdom",
+          "display": "Wales, UK"
+        },
+        "period": {
+          "start": "2026-01",
+          "end": "2026-06",
+          "isCurrent": false,
+          "display": "Jan 2026 - Jun 2026"
+        },
+        "highlights": [
+          {
+            "label": "E-commerce Automation",
+            "description": "Engineered a fully automated book-selling platform, architecting a seamless integration between the web interface and a centralized CRM to optimize customer relationship management and data-driven workflows."
+          },
+          {
+            "label": "AI Development",
+            "description": "Conceptualized and deployed an AI-powered QA Assistant tool, leveraging automation to accelerate testing cycles, improve software reliability, and reduce manual QA overhead."
+          },
+          {
+            "label": "Performance and Cost Architecture",
+            "description": "Designed high-efficiency system architectures for both new and legacy products, reducing server operational costs while increasing application speed and throughput."
+          },
+          {
+            "label": "Stakeholder Engagement",
+            "description": "Facilitated post-delivery consultations and technical reviews with UK-based clients to gather feedback, ensure project alignment with business goals, and provide ongoing technical strategy."
+          }
+        ]
+      },
+      {
+        "id": "grocoder-full-stack-web-developer",
+        "order": 3,
+        "company": "Grocoder Software Solutions",
+        "companyUrl": "https://grocoder.net/",
+        "role": "Full-Stack Web Developer",
+        "location": {
+          "city": "Comilla",
+          "country": "Bangladesh",
+          "display": "Comilla, Bangladesh"
+        },
+        "period": {
+          "start": "2025-04",
+          "end": "2026-01",
+          "isCurrent": false,
+          "display": "Apr 2025 - Jan 2026"
+        },
+        "highlights": [
+          {
+            "label": "Requirements Analysis",
+            "description": "Collaborated with clients to understand business requirements and translate them into practical, scalable web solutions."
+          },
+          {
+            "label": "Web Application Development",
+            "description": "Designed and developed responsive websites and custom applications using Laravel, WordPress, and WooCommerce."
+          },
+          {
+            "label": "E-Commerce Solutions",
+            "description": "Built and customized online stores, product catalogs, checkout processes, payment features, and other e-commerce functionality."
+          },
+          {
+            "label": "Full-Stack Implementation",
+            "description": "Developed user-facing interfaces, backend functionality, database structures, and third-party integrations based on project requirements."
+          },
+          {
+            "label": "Server Management",
+            "description": "Managed website deployments, hosting environments, configuration, maintenance, and technical troubleshooting."
+          },
+          {
+            "label": "Client Relationship Management",
+            "description": "Maintained clear communication with customers, provided project updates, collected feedback, and delivered ongoing technical support."
+          }
+        ]
+      },
+      {
+        "id": "imjol-software-developer",
+        "order": 4,
+        "company": "Imjol",
+        "companyUrl": "https://imjol.com/",
+        "role": "Software Developer",
+        "location": {
+          "city": "Dhaka",
+          "country": "Bangladesh",
+          "display": "Dhaka, Bangladesh"
+        },
+        "period": {
+          "start": "2023-06",
+          "end": "2025-04",
+          "isCurrent": false,
+          "display": "Jun 2023 - Apr 2025"
+        },
+        "highlights": [
+          {
+            "label": "Product Lifecycle Management",
+            "description": "Oversaw the continuous maintenance and iterative enhancement of a diverse portfolio of CodeCanyon software products, ensuring compatibility with platform updates and sustaining high user ratings through proactive bug resolution and security patching."
+          },
+          {
+            "label": "AI and Feature Innovation",
+            "description": "Architected and deployed a comprehensive Learning Management System featuring advanced video streaming capabilities and integrated e-commerce functionality for digital asset sales."
+          },
+          {
+            "label": "Infrastructure and DevOps",
+            "description": "Modernized the deployment workflow by implementing CI/CD pipelines, reducing integration friction and supporting seamless, high-availability updates for global product lines."
+          },
+          {
+            "label": "Performance Engineering",
+            "description": "Refactored legacy PHP architectures into modern, performant frameworks, resulting in a 20% reduction in server overhead and improved application response times."
+          }
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "id": "nursery-rhyme-video-automation",
+        "order": 1,
+        "featured": true,
+        "name": "Nursery-Rhyme Music Video Automation",
+        "url": "https://github.com/strontiumcorp/nursery_rhyme_music_video",
+        "technologies": [
+          "Codex",
+          "Claude",
+          "Artistly",
+          "CloneVoice",
+          "VideoExpress"
+        ],
+        "highlights": [
+          {
+            "label": "End-to-End AI Automation",
+            "description": "Developed a highly requested workflow that transforms a user's song idea and preferred aspect ratio into a completed Full HD nursery-rhyme music video with minimal user input."
+          },
+          {
+            "label": "Multi-Platform Integration",
+            "description": "Automated song and voice generation in CloneVoice, character-consistent storyboard creation in Artistly, and scene-based video production and assembly in VideoExpress."
+          },
+          {
+            "label": "Intelligent Video Production",
+            "description": "Built dynamic scene mapping, structured prompt generation, five-clip batch processing, consistent aspect-ratio enforcement, and precise audio-video duration synchronization."
+          },
+          {
+            "label": "Prompt Quality and Character Consistency",
+            "description": "Created a structured prompting framework with scene-level validation to maintain consistent characters, expressive animation, and non-lip-syncing behavior throughout each video."
+          },
+          {
+            "label": "Autonomous and Resumable Execution",
+            "description": "Implemented persistent workflow checkpoints that allow interrupted sessions to resume from the last verified step without repeating completed operations."
+          }
+        ]
+      },
+      {
+        "id": "trading-chart-lms",
+        "order": 2,
+        "featured": true,
+        "name": "Trading Chart: Full-Stack LMS",
+        "url": "https://tradingchart.org/",
+        "technologies": [
+          "Laravel",
+          "React.js",
+          "Inertia.js",
+          "Laravel Reverb",
+          "AI/MCP",
+          "SSLCommerz"
+        ],
+        "highlights": [
+          {
+            "label": "Next-Gen Communication",
+            "description": "Integrated a real-time live chat system using Laravel Reverb and an AI Chat Assistant powered by Model Context Protocol for automated user support and technical inquiries."
+          },
+          {
+            "label": "High-Performance Architecture",
+            "description": "Delivered a 2x faster user experience by leveraging Inertia.js for SPA transitions and optimizing content delivery through global CDN integration."
+          },
+          {
+            "label": "LMS and Media Infrastructure",
+            "description": "Engineered a custom Learning Management System with a specialized secure video player and progress tracking, supported by a scalable backend for bulk media processing and automated student enrollment."
+          },
+          {
+            "label": "Granular Security",
+            "description": "Implemented Role-Based Access Control to securely manage distinct permissions for students, instructors, and affiliates."
+          }
+        ]
+      },
+      {
+        "id": "ricestream",
+        "order": 3,
+        "featured": true,
+        "name": "RiceStream: Inventory and Financial Management System",
+        "url": "https://arod.streetfashioner.com/",
+        "technologies": [
+          "Laravel",
+          "React.js",
+          "Inertia.js",
+          "MySQL"
+        ],
+        "highlights": [
+          {
+            "label": "ERP Development",
+            "description": "Built a specialized management platform for rice mill owners and wholesalers, centralizing inventory, supplier and customer accounts, payments, outstanding dues, and financial reporting."
+          },
+          {
+            "label": "Modern Monolithic Architecture",
+            "description": "Integrated Laravel, React, and Inertia.js to deliver a responsive single-page experience while maintaining secure server-side authorization, calculations, and a single source of truth for financial data."
+          },
+          {
+            "label": "High-Precision Transaction Processing",
+            "description": "Implemented fixed-point arithmetic using PHP BCMath to accurately process weight conversions, variable pricing, stock valuation, payments, and outstanding balances without floating-point errors."
+          },
+          {
+            "label": "Inventory and Financial Insights",
+            "description": "Developed real-time stock tracking, low-stock alerts, automated ledgers, cash-flow summaries, and daily, weekly, and monthly profit-and-loss reports through a unified dashboard."
+          },
+          {
+            "label": "Database Performance Optimization",
+            "description": "Applied eager loading, optimized Eloquent queries, and database indexing to generate account statements from thousands of transaction records with response times below 200 milliseconds."
+          },
+          {
+            "label": "Business Process Improvement",
+            "description": "Eliminated manual due-calculation errors, reduced weekly bookkeeping time by more than 10 hours, and enabled 30% faster inventory-restocking decisions."
+          }
+        ]
+      },
+      {
+        "id": "bilingual-qa-compliance-engine",
+        "order": 4,
+        "featured": true,
+        "name": "AI-Powered Bilingual QA and Compliance Engine",
+        "url": "https://api.sbec.cymru/",
+        "technologies": [
+          "Laravel 13",
+          "Gemini",
+          "Redis"
+        ],
+        "highlights": [
+          {
+            "label": "High-Scale Auditing",
+            "description": "Engineered a server-side asynchronous pipeline using Redis Queues to process 1,000+ bulk URL audits, increasing processing speed by 85% compared with browser-based scripts."
+          },
+          {
+            "label": "Cost and Token Optimization",
+            "description": "Implemented server-side HTML sanitization and minification, reducing AI token consumption by 40% and lowering API operational costs."
+          },
+          {
+            "label": "Structured Data Integrity",
+            "description": "Leveraged Gemini's JSON Schema mode to ensure consistent data mapping and reduce hallucinations in bilingual English and Welsh compliance reports."
+          },
+          {
+            "label": "Empowered Non-Technical Users",
+            "description": "Developed a dynamic CRUD-based Prompt Engine, allowing auditors to update QA rules and AI personas without code deployments."
+          }
+        ]
+      },
+      {
+        "id": "woocommerce-reseller-ledger",
+        "order": 5,
+        "featured": false,
+        "name": "WooCommerce Multi-Tier Reseller and Ledger System",
+        "url": "https://resellerhubbd.com/",
+        "technologies": [
+          "PHP",
+          "WooCommerce",
+          "MySQL",
+          "AJAX"
+        ],
+        "highlights": [
+          {
+            "label": "Financial Engineering",
+            "description": "Architected a custom double-entry ledger engine to maintain financial accuracy across commissions, penalties, and payouts while eliminating manual bookkeeping errors."
+          },
+          {
+            "label": "Decoupled Dashboard",
+            "description": "Engineered a high-performance, app-like reseller interface using AJAX and optimized PHP, resulting in a 40% increase in user engagement while bypassing standard WordPress admin constraints."
+          },
+          {
+            "label": "Automated Compliance",
+            "description": "Streamlined reseller onboarding by integrating a KYC verification module with NID document processing, reducing administrative overhead by 60%."
+          },
+          {
+            "label": "Scalable Order Logic",
+            "description": "Implemented real-time data visualization and AJAX-driven order processing to maintain sub-second dashboard performance while managing high-volume product catalogs and transaction histories."
+          },
+          {
+            "label": "Automated Settlement",
+            "description": "Developed automated commission credits for completed orders and penalty debits for returns, supporting transparent, real-time wallet balance management for B2B users."
+          }
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "id": "ai-modern-workflow",
+        "label": "AI and Modern Workflow",
+        "groups": [
+          {
+            "label": "AI-Assisted Development",
+            "items": [
+              "Cursor",
+              "Claude 3.5 Sonnet/Opus",
+              "ChatGPT GPT-4o",
+              "GitHub Copilot"
+            ]
+          },
+          {
+            "label": "AI Engineering",
+            "items": [
+              "Prompt Engineering",
+              "OpenAI API",
+              "Gemini API",
+              "Structured Outputs with JSON Schema",
+              "AI-Driven QA Automation"
+            ]
+          },
+          {
+            "label": "Productivity",
+            "items": [
+              "Vim/Neovim",
+              "CLI-Based Workflows",
+              "Bash/Cron System Automation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "backend-system-architecture",
+        "label": "Backend and System Architecture",
+        "groups": [
+          {
+            "label": "Frameworks",
+            "items": [
+              "Laravel PHP",
+              "Express.js"
+            ]
+          },
+          {
+            "label": "WordPress Core",
+            "items": [
+              "Custom Plugin Development",
+              "Hooks API: Actions and Filters",
+              "WP REST API Extensions",
+              "Shortcodes",
+              "WP-Cron Jobs"
+            ]
+          },
+          {
+            "label": "Database and Logic",
+            "items": [
+              "MySQL",
+              "SQLite",
+              "PostgreSQL",
+              "Redis Queues",
+              "Scalable System Design"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "frontend-ui-development",
+        "label": "Frontend and UI Development",
+        "groups": [
+          {
+            "label": "Modern Frameworks",
+            "items": [
+              "React.js",
+              "Inertia.js",
+              "Alpine.js",
+              "HTMX",
+              "jQuery"
+            ]
+          },
+          {
+            "label": "Styling and Design",
+            "items": [
+              "Tailwind CSS",
+              "Bootstrap",
+              "Vite",
+              "Figma Design-to-Code"
+            ]
+          },
+          {
+            "label": "WordPress Frontend",
+            "items": [
+              "Custom Theme Development",
+              "Gutenberg Blocks",
+              "Advanced Custom Fields",
+              "Elementor",
+              "Divi"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "woocommerce-expertise",
+        "label": "WooCommerce Expertise",
+        "groups": [
+          {
+            "label": "E-Commerce Logic",
+            "items": [
+              "Custom Checkout Fields and Logic",
+              "WooCommerce API Integration",
+              "B2B and Reseller System Architecture"
+            ]
+          },
+          {
+            "label": "Data Modeling",
+            "items": [
+              "Custom Post Types",
+              "Taxonomy Design",
+              "Product Catalog Management"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "infrastructure-devops-tooling",
+        "label": "Infrastructure, DevOps, and Tooling",
+        "groups": [
+          {
+            "label": "Languages",
+            "items": [
+              "TypeScript",
+              "JavaScript ES6+",
+              "PHP",
+              "SQL",
+              "Bash",
+              "YAML",
+              "HTML5",
+              "CSS3"
+            ]
+          },
+          {
+            "label": "Server and DevOps",
+            "items": [
+              "Docker",
+              "GitHub Actions CI/CD",
+              "Linux SSH",
+              "Nginx",
+              "Apache",
+              "Caddy",
+              "Datadog Server Monitoring"
+            ]
+          },
+          {
+            "label": "Workflow Tools",
+            "items": [
+              "Git",
+              "WP-CLI",
+              "Postman",
+              "PM2"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "soft-skills",
+        "label": "Soft Skills",
+        "groups": [
+          {
+            "label": "Core",
+            "items": [
+              "Analytical Problem Solving",
+              "Attention to Detail",
+              "Clean Code Advocacy: SOLID and DRY"
+            ]
+          },
+          {
+            "label": "Collaboration",
+            "items": [
+              "Mentorship",
+              "Agile and Scrum Teamwork",
+              "Adaptive Learning"
+            ]
+          },
+          {
+            "label": "Personal Strengths",
+            "items": [
+              "Proactive Troubleshooting",
+              "Strong Ownership",
+              "Sense of Humor"
+            ]
+          }
+        ]
+      }
+    ],
+    "education": [
+      {
+        "id": "govt-shahid-asad-college-bsc-chemistry",
+        "institution": "Govt. Shahid Asad College",
+        "qualification": "BSc in Chemistry",
+        "location": {
+          "city": "Dhaka",
+          "country": "Bangladesh",
+          "display": "Dhaka, Bangladesh"
+        },
+        "period": {
+          "start": "2020-06",
+          "end": "2024-06",
+          "display": "Jun 2020 - Jun 2024"
+        }
+      }
+    ],
+    "certifications": [
+      {
+        "id": "ielts-mentors-2026",
+        "name": "IELTS - International English Language Testing System",
+        "issuer": "Mentors",
+        "year": 2026
+      },
+      {
+        "id": "spoken-english-phonetics-mentors-2026",
+        "name": "Spoken English and Phonetics",
+        "issuer": "Mentors",
+        "year": 2026
+      },
+      {
+        "id": "foundation-grammar-writing-mentors-2026",
+        "name": "Foundation Grammar and Writing",
+        "issuer": "Mentors",
+        "year": 2026
+      }
+    ],
+    "languages": [
+      {
+        "id": "english",
+        "name": "English",
+        "proficiency": "Fluent"
+      },
+      {
+        "id": "bengali",
+        "name": "Bengali",
+        "proficiency": "Native"
+      },
+      {
+        "id": "hindi",
+        "name": "Hindi",
+        "proficiency": "Intermediate"
+      }
+    ]
+  }
+}
