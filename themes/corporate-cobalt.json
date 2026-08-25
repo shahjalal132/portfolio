@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "corporate-cobalt",
+  "name": "Corporate Cobalt",
+  "description": "A clean, white, data-focused theme designed for international hiring managers and technical teams.",
+  "appearance": {
+    "mode": "light",
+    "colorScheme": "light"
+  },
+  "colors": {
+    "background": "#FFFFFF",
+    "surface": "#F8FAFC",
+    "surfaceElevated": "#FFFFFF",
+    "textPrimary": "#0F172A",
+    "textSecondary": "#475569",
+    "textMuted": "#64748B",
+    "border": "#E2E8F0",
+    "borderStrong": "#CBD5E1",
+    "accent": "#1D4ED8",
+    "accentHover": "#1E40AF",
+    "accentSoft": "#EFF6FF",
+    "accentText": "#FFFFFF",
+    "success": "#047857",
+    "focusRing": "#2563EB"
+  },
+  "typography": {
+    "families": {
+      "sans": "Geist Sans, Inter, Arial, sans-serif",
+      "mono": "Geist Mono, Consolas, monospace"
+    },
+    "weights": {
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    },
+    "sizes": {
+      "label": "0.8125rem",
+      "small": "0.875rem",
+      "body": "1rem",
+      "bodyLarge": "1.125rem",
+      "cardTitle": "1.25rem",
+      "sectionTitle": "2rem",
+      "pageTitle": "3rem",
+      "heroName": "4rem"
+    },
+    "lineHeights": {
+      "tight": 1.15,
+      "heading": 1.25,
+      "body": 1.65
+    }
+  },
+  "layout": {
+    "type": "single-page",
+    "maxWidth": "1180px",
+    "gridColumns": 12,
+    "contentPadding": {
+      "mobile": "20px",
+      "tablet": "32px",
+      "desktop": "40px"
+    },
+    "sectionSpacing": {
+      "mobile": "72px",
+      "desktop": "112px"
+    },
+    "navigation": {
+      "position": "sticky",
+      "height": "72px",
+      "showSectionIndicator": true
+    },
+    "experienceStyle": "timeline",
+    "projectStyle": "case-study-cards",
+    "skillsStyle": "category-matrix"
+  },
+  "components": {
+    "radius": {
+      "small": "8px",
+      "medium": "12px",
+      "large": "16px",
+      "pill": "999px"
+    },
+    "shadow": {
+      "card": "0 1px 2px rgba(15, 23, 42, 0.06)",
+      "cardHover": "0 12px 30px rgba(15, 23, 42, 0.10)"
+    },
+    "buttons": {
+      "primaryStyle": "solid",
+      "secondaryStyle": "outline"
+    },
+    "cards": {
+      "bordered": true,
+      "showTechnologyTags": true,
+      "showImpactFirst": true
+    }
+  },
+  "motion": {
+    "enabled": true,
+    "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+    "durations": {
+      "fast": 160,
+      "normal": 220,
+      "hero": 300
+    },
+    "reveal": {
+      "type": "fade-up",
+      "distance": "10px",
+      "stagger": 50,
+      "once": true
+    },
+    "hover": {
+      "cardLift": "-2px",
+      "scale": 1
+    },
+    "smoothScroll": true,
+    "respectReducedMotion": true
+  },
+  "accessibility": {
+    "minimumTextContrast": "4.5:1",
+    "minimumLargeTextContrast": "3:1",
+    "visibleKeyboardFocus": true,
+    "doNotUseColorAlone": true,
+    "reducedMotionFallback": "none"
+  }
+}

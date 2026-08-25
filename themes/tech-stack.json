@@ -1,0 +1,241 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "nextjs-data-first-portfolio",
+  "name": "Next.js Data-First Portfolio Stack",
+  "lastReviewed": "2026-08-26",
+  "objectives": [
+    "SEO-friendly static HTML",
+    "SPA-like navigation and interactions",
+    "JSON-driven portfolio content",
+    "JSON-driven visual themes",
+    "Minimal client-side JavaScript",
+    "Fast global delivery",
+    "Accessible responsive design"
+  ],
+  "runtime": {
+    "node": {
+      "versionPolicy": "current-active-lts"
+    },
+    "packageManager": "pnpm"
+  },
+  "core": {
+    "framework": {
+      "name": "Next.js",
+      "package": "next",
+      "versionPolicy": "latest-stable",
+      "router": "app-router"
+    },
+    "uiLibrary": {
+      "name": "React",
+      "packages": [
+        "react",
+        "react-dom"
+      ],
+      "versionPolicy": "framework-compatible"
+    },
+    "language": {
+      "name": "TypeScript",
+      "package": "typescript",
+      "strict": true
+    }
+  },
+  "rendering": {
+    "strategy": "static-first",
+    "initialResponse": "pre-rendered-html",
+    "clientExperience": "spa-like",
+    "serverComponentsByDefault": true,
+    "clientComponentsFor": [
+      "mobile navigation",
+      "active section tracking",
+      "expand and collapse controls",
+      "project filtering",
+      "animations",
+      "copy-to-clipboard interactions"
+    ],
+    "staticExport": {
+      "enabledByDefault": false,
+      "supported": true,
+      "enableWhen": "The site requires no server actions, runtime route handlers, or default image optimization."
+    }
+  },
+  "content": {
+    "sourceType": "local-json",
+    "portfolioData": "data/portfolio-data.json",
+    "activeTheme": "themes/corporate-cobalt.json",
+    "loadStrategy": "build-time-static-import",
+    "runtimeFetchRequired": false,
+    "databaseRequired": false,
+    "cmsRequired": false,
+    "validation": {
+      "library": "Zod",
+      "package": "zod",
+      "timing": "build-time",
+      "failBuildOnInvalidData": true
+    }
+  },
+  "styling": {
+    "framework": {
+      "name": "Tailwind CSS",
+      "package": "tailwindcss",
+      "versionPolicy": "latest-stable",
+      "integration": "postcss"
+    },
+    "postcssPackage": "@tailwindcss/postcss",
+    "themeStrategy": "css-custom-properties",
+    "tokenSource": "themes/corporate-cobalt.json",
+    "componentLibrary": "custom-lightweight-components",
+    "componentLibraryPolicy": "Use accessible primitives only when a custom component would be unnecessarily complex."
+  },
+  "typography": {
+    "primary": {
+      "name": "Geist Sans",
+      "usage": [
+        "headings",
+        "body copy",
+        "navigation",
+        "buttons"
+      ]
+    },
+    "monospace": {
+      "name": "Geist Mono",
+      "usage": [
+        "dates",
+        "metrics",
+        "technology labels",
+        "metadata"
+      ]
+    },
+    "loading": "next-font"
+  },
+  "animation": {
+    "library": {
+      "name": "Motion for React",
+      "package": "motion"
+    },
+    "useFor": [
+      "hero reveal",
+      "section entrance",
+      "expandable project details",
+      "mobile navigation",
+      "active layout indicator"
+    ],
+    "useCssFor": [
+      "button hover",
+      "card hover",
+      "link color",
+      "focus state"
+    ],
+    "respectReducedMotion": true,
+    "bundleStrategy": "lazy-and-minimal"
+  },
+  "icons": {
+    "name": "Lucide React",
+    "package": "lucide-react",
+    "importStrategy": "individual-icons-only"
+  },
+  "seo": {
+    "metadata": "nextjs-metadata-api",
+    "structuredData": [
+      "Person",
+      "ProfilePage",
+      "WebSite",
+      "CreativeWork"
+    ],
+    "files": [
+      "app/sitemap.ts",
+      "app/robots.ts",
+      "app/opengraph-image.tsx",
+      "app/favicon.ico"
+    ],
+    "requirements": [
+      "canonical URL",
+      "single descriptive h1",
+      "semantic HTML landmarks",
+      "correct heading hierarchy",
+      "descriptive link labels",
+      "image alt text",
+      "Open Graph metadata",
+      "JSON-LD generated from portfolio data"
+    ]
+  },
+  "deployment": {
+    "provider": "Vercel",
+    "sourceControl": "GitHub",
+    "productionBranch": "main",
+    "automaticDeployments": true,
+    "previewDeployments": true,
+    "environmentVariablesRequired": false,
+    "analytics": {
+      "provider": "Vercel Web Analytics",
+      "enabledByDefault": false
+    }
+  },
+  "quality": {
+    "linting": {
+      "tool": "ESLint",
+      "package": "eslint"
+    },
+    "formatting": {
+      "tool": "Prettier",
+      "package": "prettier"
+    },
+    "testing": {
+      "tool": "Playwright",
+      "package": "@playwright/test",
+      "scope": [
+        "homepage renders",
+        "navigation anchors work",
+        "project links are valid",
+        "mobile navigation works",
+        "reduced motion is respected"
+      ]
+    },
+    "performanceTargets": {
+      "lighthousePerformance": 95,
+      "lighthouseAccessibility": 100,
+      "lighthouseBestPractices": 95,
+      "lighthouseSeo": 100
+    }
+  },
+  "dependencies": {
+    "production": [
+      "next",
+      "react",
+      "react-dom",
+      "zod",
+      "motion",
+      "lucide-react"
+    ],
+    "development": [
+      "typescript",
+      "tailwindcss",
+      "@tailwindcss/postcss",
+      "postcss",
+      "eslint",
+      "prettier",
+      "@playwright/test"
+    ]
+  },
+  "architectureRules": [
+    "Import portfolio JSON during server rendering instead of fetching it in the browser.",
+    "Keep Server Components as the default and add use client only at interaction boundaries.",
+    "Generate metadata and JSON-LD from the same portfolio data source.",
+    "Read visual tokens from the active theme JSON and expose them as CSS custom properties.",
+    "Avoid duplicating portfolio content inside React components.",
+    "Validate portfolio and theme data during every production build.",
+    "Keep animations non-essential and accessible.",
+    "Prefer semantic HTML over generic containers."
+  ],
+  "excludedTechnologies": [
+    "Redux",
+    "Zustand",
+    "database",
+    "headless CMS",
+    "Laravel backend",
+    "runtime portfolio API",
+    "Bootstrap",
+    "heavy component library",
+    "client-only rendering",
+    "GSAP"
+  ]
+}
