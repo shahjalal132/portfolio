@@ -31,10 +31,6 @@
         {
           "id": "skills",
           "label": "Skills"
-        },
-        {
-          "id": "education",
-          "label": "Education"
         }
       ],
       "featuredProjectIds": [
@@ -476,7 +472,14 @@
         "groups": [
           {
             "label": "Modern Frameworks",
-            "items": ["React.js", "Inertia.js", "Alpine.js", "HTMX", "jQuery"]
+            "items": [
+              "React.js",
+              "Next.js",
+              "Inertia.js",
+              "Alpine.js",
+              "HTMX",
+              "jQuery"
+            ]
           },
           {
             "label": "Styling and Design",

@@ -29,6 +29,7 @@ html {
 
 body {
   margin: 0;
+  overflow-x: clip;
   background: var(--theme-background, #ffffff);
   color: var(--theme-text-primary, #0f172a);
   font-family: var(--font-geist-sans), Arial, sans-serif;
@@ -48,8 +49,127 @@ body {
   animation: hero-reveal 300ms cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
+.hero-glow {
+  position: relative;
+  isolation: isolate;
+}
+
+.hero-glow::before {
+  position: absolute;
+  z-index: -1;
+  inset-block: 0;
+  left: 50%;
+  width: 100vw;
+  content: "";
+  transform: translateX(-50%);
+  background:
+    radial-gradient(
+      circle at 12% 4%,
+      color-mix(in srgb, var(--theme-accent) 12%, transparent) 0%,
+      transparent 36%
+    ),
+    radial-gradient(
+      circle at 88% 2%,
+      color-mix(in srgb, #7c3aed 8%, transparent) 0%,
+      transparent 34%
+    ),
+    linear-gradient(
+      110deg,
+      var(--theme-background) 0%,
+      color-mix(in srgb, var(--theme-accent-soft) 72%, white) 48%,
+      var(--theme-background) 100%
+    );
+  border-bottom: 1px solid
+    color-mix(in srgb, var(--theme-accent) 8%, transparent);
+}
+
 .profile-photo-reveal {
   animation: profile-photo-drop 650ms cubic-bezier(0.22, 1, 0.36, 1) 80ms both;
+}
+
+.project-card {
+  background: linear-gradient(
+    145deg,
+    color-mix(in srgb, var(--theme-surface) 88%, white) 0%,
+    color-mix(in srgb, var(--theme-accent-soft) 72%, white) 100%
+  );
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+  transition:
+    transform 220ms cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 220ms ease,
+    box-shadow 220ms ease;
+}
+
+.project-card-glow {
+  background: radial-gradient(
+    circle,
+    color-mix(in srgb, var(--theme-accent) 28%, transparent) 0%,
+    color-mix(in srgb, var(--theme-accent) 10%, transparent) 42%,
+    transparent 70%
+  );
+  filter: blur(18px);
+  opacity: 0.48;
+  transition:
+    opacity 220ms ease,
+    transform 320ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  border-color: color-mix(in srgb, var(--theme-accent) 35%, transparent);
+  box-shadow:
+    0 24px 56px rgba(29, 78, 216, 0.14),
+    0 8px 24px rgba(15, 23, 42, 0.08);
+}
+
+.project-card:hover .project-card-glow {
+  opacity: 0.9;
+  transform: scale(1.16) translate(-8px, -8px);
+}
+
+.project-card-action {
+  transition:
+    color 180ms ease,
+    background-color 180ms ease,
+    border-color 180ms ease,
+    transform 220ms cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 180ms ease;
+}
+
+.project-card:hover .project-card-action {
+  color: white;
+  background: var(--theme-accent);
+  border-color: var(--theme-accent);
+  transform: rotate(90deg);
+  box-shadow: 0 8px 20px rgba(29, 78, 216, 0.24);
+}
+
+.skill-list-row,
+.experience-list-row {
+  transition:
+    transform 220ms cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 220ms ease,
+    background 220ms ease,
+    box-shadow 220ms ease;
+}
+
+.skill-list-row:hover,
+.experience-list-row:hover {
+  background:
+    radial-gradient(
+      circle at 4% 20%,
+      color-mix(in srgb, var(--theme-accent) 9%, transparent) 0%,
+      transparent 34%
+    ),
+    linear-gradient(
+      110deg,
+      color-mix(in srgb, var(--theme-accent-soft) 74%, white) 0%,
+      color-mix(in srgb, var(--theme-background) 88%, var(--theme-accent-soft))
+        100%
+    );
+  border-color: color-mix(in srgb, var(--theme-accent) 20%, transparent);
+  box-shadow: 0 14px 34px rgba(29, 78, 216, 0.09);
+  transform: translateY(-2px);
 }
 
 @keyframes hero-reveal {
