@@ -25,6 +25,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 4.5rem;
 }
 
 body {
@@ -144,6 +145,35 @@ body {
   box-shadow: 0 8px 20px rgba(29, 78, 216, 0.24);
 }
 
+.project-gallery-stage {
+  perspective: 1200px;
+  cursor: grab;
+}
+
+.project-gallery-stage:active {
+  cursor: grabbing;
+}
+
+.gallery-project-card {
+  transform-style: preserve-3d;
+  will-change: transform, opacity, filter;
+}
+
+.gallery-control {
+  transition:
+    color 180ms ease,
+    background-color 180ms ease,
+    border-color 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.gallery-control:hover {
+  color: white;
+  background: var(--theme-accent);
+  border-color: var(--theme-accent);
+  box-shadow: 0 10px 24px rgba(29, 78, 216, 0.22);
+}
+
 .skill-list-row,
 .experience-list-row {
   transition:
@@ -151,6 +181,18 @@ body {
     border-color 220ms ease,
     background 220ms ease,
     box-shadow 220ms ease;
+}
+
+[data-gsap-panel] {
+  position: relative;
+  background-color: var(--theme-background, #ffffff);
+  will-change: transform, filter;
+}
+
+@media (min-width: 1024px) {
+  [data-gsap-panel] {
+    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.06);
+  }
 }
 
 .skill-list-row:hover,

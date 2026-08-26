@@ -29,6 +29,10 @@
           "label": "Projects"
         },
         {
+          "id": "gallery",
+          "label": "Gallery"
+        },
+        {
           "id": "skills",
           "label": "Skills"
         }
