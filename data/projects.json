@@ -22,18 +22,6 @@
       }
     },
     {
-      "id": "imjol-108",
-      "slug": "shobkisu-ecommerce",
-      "name": "Shobkisu Ecommerce",
-      "code": "Shobkisu-Ecommerce",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder.webp",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
       "id": "imjol-105",
       "slug": "trading-chart",
       "name": "Trading Chart",
@@ -178,18 +166,6 @@
       }
     },
     {
-      "id": "imjol-85",
-      "slug": "helloagain-api-integration-new-features",
-      "name": "helloagain API Integration (new features)",
-      "code": "helloagain API Integration (new features)",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder.webp",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
       "id": "imjol-83",
       "slug": "zenoti-api-integration",
       "name": "Zenoti API Integration",
@@ -218,18 +194,6 @@
       "slug": "property-json-csv-and-openai-api",
       "name": "Import property from json and csv and modify using openai API",
       "code": "property-json-csv-and-openai-api",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder.webp",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
-      "id": "imjol-80",
-      "slug": "helloagain-api-integration",
-      "name": "helloagain API Integration",
-      "code": "helloagain API Integration",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
       "screenshot_url": "./placeholder.webp",
@@ -300,7 +264,7 @@
     {
       "id": "imjol-58",
       "slug": "ecommerce-website-from-html-site",
-      "name": "eCommerce website from HTML site (Code: 35U)",
+      "name": "eCommerce website from HTML site",
       "code": "ecommerce-website-from-html-site",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
@@ -346,18 +310,6 @@
       }
     },
     {
-      "id": "imjol-50",
-      "slug": "date-time-issue-woocommerce",
-      "name": "Fix Date and time issue with woocommerce",
-      "code": "date-time-issue-woocommerce",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder.webp",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
       "id": "imjol-48",
       "slug": "clone-elementor-website",
       "name": "Clone Website using Elementor",
@@ -382,30 +334,6 @@
       }
     },
     {
-      "id": "imjol-42",
-      "slug": "kinguin-api-to-woocommerce",
-      "name": "kinguin api to woocommerce",
-      "code": "kinguin-api-to-woocommerce",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder.webp",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
-      "id": "imjol-40",
-      "slug": "github-contribution",
-      "name": "GitHub Contribution",
-      "code": "GitHub Contribution",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder.webp",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
       "id": "imjol-38",
       "slug": "nhn-cloud-woocommerce-order-api-integration",
       "name": "NHN Cloud - WooCommerce Order api integration",
@@ -420,7 +348,7 @@
     {
       "id": "imjol-37",
       "slug": "alimtalk-sms",
-      "name": "AlimTalk Kakao SMS",
+      "name": "AlimTalk Kakao SMS Gateway",
       "code": "alimtalk-sms",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
@@ -432,8 +360,8 @@
     {
       "id": "imjol-36",
       "slug": "zen-payments-gateway-develop",
-      "name": "Zen Payments Gateway Develop",
-      "code": "Zen Payments Gateway Develop",
+      "name": "Zen Payment Gateway Development",
+      "code": "Zen Payment Gateway Development",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
       "screenshot_url": "./placeholder.webp",
@@ -444,32 +372,8 @@
     {
       "id": "imjol-35",
       "slug": "homeappliancepr-woocommerc-product-import",
-      "name": "Home Appliancepr Woocommerc Product Import",
+      "name": "Home Appliancepr Woocommerc Product Import and dropshiping integration",
       "code": "homeappliancepr-woocommerc-product-import",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder.webp",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
-      "id": "imjol-34",
-      "slug": "woo-order-api-integration",
-      "name": "Woo Order api Integration",
-      "code": "Woo Order api Integration",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder.webp",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
-      "id": "imjol-32",
-      "slug": "plugin-development-for-codecanyon",
-      "name": "Plugin Development For Codecanyon",
-      "code": "Plugin Development For Codecanyon",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
       "screenshot_url": "./placeholder.webp",
@@ -490,21 +394,9 @@
       }
     },
     {
-      "id": "imjol-28",
-      "slug": "allthecourse",
-      "name": "Allthecourse",
-      "code": "allthecourse",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder.webp",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
       "id": "imjol-27",
       "slug": "lindor-furniture",
-      "name": "Lindor furniture",
+      "name": "Lindor furniture and Dropshiping",
       "code": "Lindor furniture",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
@@ -516,20 +408,8 @@
     {
       "id": "imjol-26",
       "slug": "course-lms-landing-page",
-      "name": "Course LMS Landing Page",
-      "code": "Course LMS Landing Page",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder.webp",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
-      "id": "imjol-24",
-      "slug": "stoff-market-landing-page-and-api",
-      "name": "Stoff Market Landing Page and Api",
-      "code": "stoff-market-landing-page-and-api",
+      "name": "Course LMS",
+      "code": "Course LMS",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
       "screenshot_url": "./placeholder.webp",
@@ -574,18 +454,6 @@
       }
     },
     {
-      "id": "imjol-18",
-      "slug": "wordpress-theme-plugin",
-      "name": "WordPress Theme Plugin Website",
-      "code": "wordpress-theme-plugin",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder.webp",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
       "id": "imjol-17",
       "slug": "vendorapi-amrod-co-za-api",
       "name": "Vendorapi Amrod Co Za API",
@@ -610,22 +478,10 @@
       }
     },
     {
-      "id": "imjol-8",
-      "slug": "imjol-website",
-      "name": "Imjol Website",
-      "code": "imjol_website",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder.webp",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
       "id": "imjol-7",
-      "slug": "pvamarkets-wordpress-theme",
-      "name": "Pvamarkets WordPress Theme",
-      "code": "pvamarkets_wordpress_theme",
+      "slug": "pvamarkets",
+      "name": "Pvamarkets ",
+      "code": "pvamarkets",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
       "screenshot_url": "./placeholder.webp",
