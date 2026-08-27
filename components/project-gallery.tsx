@@ -2,8 +2,6 @@
 
 import { useEffect, useRef, useState } from "react";
 import { ArrowLeft, ArrowRight, ExternalLink } from "lucide-react";
-import Image from "next/image";
-import placeholderImage from "@/data/placeholder.webp";
 import projectsData from "@/data/projects.json";
 
 const projects = projectsData.projects;
@@ -196,7 +194,7 @@ export function ProjectGallery() {
 
         <div
           ref={galleryRef}
-          className="project-gallery-stage relative mt-8 h-[540px] touch-pan-y outline-none sm:h-[570px]"
+          className="project-gallery-stage relative mt-8 h-[430px] touch-pan-y outline-none sm:h-[460px]"
           role="region"
           aria-roledescription="carousel"
           aria-label="Project gallery"
@@ -214,27 +212,20 @@ export function ProjectGallery() {
                 ref={(element) => {
                   cardRefs.current[index] = element;
                 }}
-                className="gallery-project-card absolute top-1/2 left-1/2 h-[450px] w-[min(82vw,360px)] opacity-0"
+                className="gallery-project-card absolute top-1/2 left-1/2 h-[350px] w-[min(82vw,360px)] opacity-0"
                 aria-label={`${index + 1} of ${projects.length}`}
               >
-                <article className="flex h-full flex-col overflow-hidden rounded-[1.75rem] border border-border bg-background shadow-[0_24px_70px_rgba(15,23,42,0.14)]">
-                  <div className="relative h-48 shrink-0 overflow-hidden border-b border-border bg-surface">
-                    <Image
-                      src={placeholderImage}
-                      alt=""
-                      fill
-                      sizes="360px"
-                      className="object-cover transition-transform duration-500 hover:scale-105"
-                    />
-                    <span className="absolute top-4 left-4 rounded-full border border-white/80 bg-white/90 px-3 py-1 font-mono text-xs font-semibold text-accent shadow-sm backdrop-blur">
+                <article className="flex h-full flex-col overflow-hidden rounded-[1.75rem] border border-border bg-background p-6 shadow-[0_24px_70px_rgba(15,23,42,0.14)]">
+                  <div className="flex items-start justify-between gap-4">
+                    <p className="font-mono text-xs uppercase tracking-[0.14em] text-accent">
+                      {project.code}
+                    </p>
+                    <span className="shrink-0 rounded-full border border-border bg-surface px-3 py-1 font-mono text-xs font-semibold text-accent">
                       {String(index + 1).padStart(2, "0")}
                     </span>
                   </div>
 
-                  <div className="flex flex-1 flex-col p-6">
-                    <p className="font-mono text-xs uppercase tracking-[0.14em] text-accent">
-                      {project.code}
-                    </p>
+                  <div className="flex flex-1 flex-col">
                     <h3 className="mt-3 line-clamp-2 text-xl font-semibold tracking-tight">
                       {project.name}
                     </h3>
@@ -258,10 +249,6 @@ export function ProjectGallery() {
             ))}
           </ul>
         </div>
-
-        <p className="mt-2 text-center font-mono text-xs uppercase tracking-[0.14em] text-subtle">
-          Use arrow keys, swipe, or the controls to explore
-        </p>
       </div>
     </section>
   );

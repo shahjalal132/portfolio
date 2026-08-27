@@ -55,11 +55,27 @@
       "contact": {
         "email": "rishajalal132@gmail.com",
         "phone": "+8801759277132",
+        "cv_url": "https://drive.google.com/file/d/1fkkgC4DN0-c8AqF9BkrEnLbP2-MOVKYO/view?usp=sharing",
         "links": [
           {
             "id": "github",
             "label": "GitHub",
             "url": "https://github.com/shahjalal132"
+          },
+          {
+            "id": "linkedin",
+            "label": "LinkedIn",
+            "url": "#"
+          },
+          {
+            "id": "facebook",
+            "label": "Facebook",
+            "url": "https://www.facebook.com/shahjalal1320/"
+          },
+          {
+            "id": "twitter",
+            "label": "Twitter",
+            "url": "#"
           }
         ]
       },

@@ -4,7 +4,7 @@ import { z } from "zod";
 const linkSchema = z.object({
   id: z.string(),
   label: z.string(),
-  url: z.string().url(),
+  url: z.union([z.string().url(), z.literal("#")]),
 });
 
 const highlightSchema = z
@@ -50,6 +50,7 @@ const portfolioDataSchema = z
         contact: z.object({
           email: z.string().email(),
           phone: z.string(),
+          cv_url: z.string().url(),
           links: z.array(linkSchema),
         }),
         summary: z.string(),

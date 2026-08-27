@@ -15,6 +15,7 @@ import {
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import Image from "next/image";
+import { ContactForm } from "@/components/contact-form";
 import { ProjectGallery } from "@/components/project-gallery";
 import { SmoothScroll } from "@/components/smooth-scroll";
 import profilePhoto from "@/data/Jalal.png";
@@ -32,9 +33,18 @@ const skillIcons: Record<string, LucideIcon> = {
   "soft-skills": UsersRound,
 };
 
+const socialMarks: Record<string, string> = {
+  linkedin: "in",
+  facebook: "f",
+  twitter: "𝕏",
+};
+
 export default function Home() {
   const { profile, experience, projects, skills } = portfolioData.portfolio;
   const github = profile.contact.links.find((link) => link.id === "github");
+  const socialLinks = profile.contact.links.filter(
+    (link) => Object.hasOwn(socialMarks, link.id) && link.url !== "#",
+  );
   const featuredProjects = projects.filter((project) => project.featured);
 
   const personJsonLd = {
@@ -52,7 +62,9 @@ export default function Home() {
         addressLocality: profile.location.city,
         addressCountry: profile.location.country,
       },
-      sameAs: profile.contact.links.map((link) => link.url),
+      sameAs: profile.contact.links
+        .filter((link) => link.url !== "#")
+        .map((link) => link.url),
       knowsAbout: profile.focusAreas,
     },
   };
@@ -86,7 +98,7 @@ export default function Home() {
             </ul>
           </nav>
           <a
-            href={`mailto:${profile.contact.email}`}
+            href="#contact"
             className="rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-accent-hover"
           >
             Contact
@@ -98,9 +110,26 @@ export default function Home() {
         <main>
           <section
             id="about"
-            className="hero-glow hero-reveal mx-auto max-w-[1180px] px-5 py-10 sm:px-8 sm:py-12 lg:flex lg:min-h-[calc(100svh-4.6rem)] lg:items-center lg:px-10 lg:py-8"
+            className="hero-reveal relative isolate mx-auto max-w-[1180px] bg-transparent px-5 py-10 sm:px-8 sm:py-12 lg:flex lg:min-h-[calc(100svh-4.6rem)] lg:items-center lg:px-10 lg:py-8"
           >
-            <div className="grid w-full gap-10 lg:grid-cols-[minmax(0,1fr)_370px] lg:items-center">
+            <div
+              aria-hidden="true"
+              className="pointer-events-none absolute inset-y-0 left-1/2 -z-10 w-screen -translate-x-1/2 overflow-hidden"
+            >
+              <video
+                autoPlay
+                loop
+                muted
+                playsInline
+                preload="metadata"
+                className="hero-background-video h-full w-full object-cover opacity-35"
+              >
+                <source src="/media/typing-animation" type="video/mp4" />
+              </video>
+              <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(255,255,255,0.88)_0%,rgba(255,255,255,0.66)_54%,rgba(255,255,255,0.42)_100%)]" />
+            </div>
+
+            <div className="relative z-10 grid w-full gap-10 lg:grid-cols-[minmax(0,1fr)_370px] lg:items-center">
               <div>
                 <p className={sectionHeading}>
                   Full-Stack Engineering + AI Automation
@@ -115,7 +144,7 @@ export default function Home() {
                 <div className="mt-6 flex flex-wrap gap-3">
                   <a
                     data-gsap-button
-                    href={`mailto:${profile.contact.email}`}
+                    href="#contact"
                     className="inline-flex items-center gap-2 rounded-lg bg-accent px-4 py-2.5 font-semibold text-white transition-colors hover:bg-accent-hover"
                   >
                     <Mail size={18} aria-hidden="true" />
@@ -135,7 +164,9 @@ export default function Home() {
                   )}
                   <a
                     data-gsap-button
-                    href="#"
+                    href={profile.contact.cv_url}
+                    target="_blank"
+                    rel="noreferrer"
                     className="inline-flex items-center gap-2 rounded-lg border border-border px-4 py-2.5 font-semibold transition-colors hover:border-accent hover:text-accent"
                   >
                     <FileDown size={18} aria-hidden="true" />
@@ -371,10 +402,10 @@ export default function Home() {
           </section>
 
           <section
-            id="education"
+            id="contact"
             className="mx-auto max-w-[1180px] px-5 py-14 sm:px-8 lg:px-10 lg:py-20"
           >
-            <div className="rounded-2xl bg-foreground px-6 py-12 text-white sm:px-10 lg:flex lg:items-center lg:justify-between lg:px-14">
+            <div className="grid gap-10 rounded-2xl bg-foreground px-6 py-12 text-white sm:px-10 lg:grid-cols-[minmax(0,0.9fr)_minmax(380px,1fr)] lg:items-center lg:gap-16 lg:px-14">
               <div>
                 <p className="font-mono text-xs font-semibold uppercase tracking-[0.2em] text-blue-300">
                   International collaboration
@@ -384,25 +415,53 @@ export default function Home() {
                   business impact matter.
                 </h2>
               </div>
-              <a
-                data-gsap-button
-                href={`mailto:${profile.contact.email}`}
-                className="mt-8 inline-flex items-center gap-2 rounded-lg bg-white px-5 py-3 font-semibold text-slate-950 transition hover:bg-blue-50 lg:mt-0"
-              >
-                Contact me <ArrowUpRight size={18} aria-hidden="true" />
-              </a>
+              <ContactForm />
             </div>
           </section>
         </main>
 
         <footer className="border-t border-border">
-          <div className="mx-auto flex max-w-[1180px] flex-col gap-3 px-5 py-8 text-sm text-muted sm:flex-row sm:items-center sm:justify-between sm:px-8 lg:px-10">
-            <p>
-              © {new Date().getFullYear()} {profile.name}
-            </p>
-            <p className="font-mono text-xs">
-              Built from structured portfolio data.
-            </p>
+          <div className="mx-auto grid max-w-[1180px] gap-4 px-5 py-8 text-center text-sm text-muted sm:px-8 md:grid-cols-[1fr_auto_1fr] md:items-center lg:px-10">
+            <span className="hidden md:block" aria-hidden="true" />
+
+            <div className="flex flex-col items-center gap-2">
+              <p>
+                © {new Date().getFullYear()} {profile.name}
+              </p>
+              <a
+                href={`mailto:${profile.contact.email}`}
+                className="inline-flex items-center gap-2 transition-colors hover:text-accent"
+              >
+                <Mail size={15} aria-hidden="true" />
+                {profile.contact.email}
+              </a>
+            </div>
+
+            {socialLinks.length > 0 && (
+              <div
+                className="flex items-center justify-center gap-2 md:justify-self-end"
+                aria-label="Social media"
+              >
+                {socialLinks.map((link) => {
+                  const socialMark = socialMarks[link.id];
+
+                  return (
+                    <a
+                      key={link.id}
+                      href={link.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label={link.label}
+                      className="inline-flex h-9 w-9 cursor-pointer items-center justify-center rounded-full border border-border transition duration-200 hover:-translate-y-1 hover:border-accent hover:text-accent hover:shadow-[0_8px_20px_rgba(37,84,220,0.18)]"
+                    >
+                      <span className="text-sm font-bold" aria-hidden="true">
+                        {socialMark}
+                      </span>
+                    </a>
+                  );
+                })}
+              </div>
+            )}
           </div>
         </footer>
       </SmoothScroll>
