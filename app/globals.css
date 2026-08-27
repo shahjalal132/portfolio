@@ -203,10 +203,6 @@ body {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .hero-background-video {
-    display: none;
-  }
-
   html {
     scroll-behavior: auto;
   }

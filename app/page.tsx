@@ -112,23 +112,6 @@ export default function Home() {
             id="about"
             className="hero-reveal relative isolate mx-auto max-w-[1180px] bg-transparent px-5 py-10 sm:px-8 sm:py-12 lg:flex lg:min-h-[calc(100svh-4.6rem)] lg:items-center lg:px-10 lg:py-8"
           >
-            <div
-              aria-hidden="true"
-              className="pointer-events-none absolute inset-y-0 left-1/2 -z-10 w-screen -translate-x-1/2 overflow-hidden"
-            >
-              <video
-                autoPlay
-                loop
-                muted
-                playsInline
-                preload="metadata"
-                className="hero-background-video h-full w-full object-cover opacity-35"
-              >
-                <source src="/media/typing-animation" type="video/mp4" />
-              </video>
-              <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(255,255,255,0.88)_0%,rgba(255,255,255,0.66)_54%,rgba(255,255,255,0.42)_100%)]" />
-            </div>
-
             <div className="relative z-10 grid w-full gap-10 lg:grid-cols-[minmax(0,1fr)_370px] lg:items-center">
               <div>
                 <p className={sectionHeading}>
