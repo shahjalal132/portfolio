@@ -20,6 +20,7 @@ import { ProjectGallery } from "@/components/project-gallery";
 import { SmoothScroll } from "@/components/smooth-scroll";
 import profilePhoto from "@/data/Jalal.png";
 import { portfolioData } from "@/lib/portfolio";
+import { projects as archiveProjects } from "@/lib/projects";
 
 const sectionHeading =
   "font-mono text-xs font-semibold uppercase tracking-[0.2em] text-accent";
@@ -323,7 +324,7 @@ export default function Home() {
             </div>
           </section>
 
-          <ProjectGallery />
+          <ProjectGallery projects={archiveProjects} />
 
           <section
             id="skills"

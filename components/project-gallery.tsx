@@ -2,11 +2,16 @@
 
 import { useEffect, useRef, useState } from "react";
 import { ArrowLeft, ArrowRight, ExternalLink } from "lucide-react";
-import projectsData from "@/data/projects.json";
+import Image from "next/image";
+import Link from "next/link";
+import { resolveProjectScreenshot } from "@/lib/project-screenshot";
+import type { Project } from "@/lib/project-types";
 
-const projects = projectsData.projects;
+type ProjectGalleryProps = {
+  projects: Project[];
+};
 
-export function ProjectGallery() {
+export function ProjectGallery({ projects }: ProjectGalleryProps) {
   const galleryRef = useRef<HTMLDivElement>(null);
   const previousRef = useRef<HTMLButtonElement>(null);
   const nextRef = useRef<HTMLButtonElement>(null);
@@ -194,7 +199,7 @@ export function ProjectGallery() {
 
         <div
           ref={galleryRef}
-          className="project-gallery-stage relative mt-8 h-[430px] touch-pan-y outline-none sm:h-[460px]"
+          className="project-gallery-stage relative mt-8 h-[570px] touch-pan-y outline-none sm:h-[600px]"
           role="region"
           aria-roledescription="carousel"
           aria-label="Project gallery"
@@ -212,20 +217,28 @@ export function ProjectGallery() {
                 ref={(element) => {
                   cardRefs.current[index] = element;
                 }}
-                className="gallery-project-card absolute top-1/2 left-1/2 h-[350px] w-[min(82vw,360px)] opacity-0"
+                className="gallery-project-card absolute top-1/2 left-1/2 h-[500px] w-[min(82vw,360px)] opacity-0"
                 aria-label={`${index + 1} of ${projects.length}`}
               >
-                <article className="flex h-full flex-col overflow-hidden rounded-[1.75rem] border border-border bg-background p-6 shadow-[0_24px_70px_rgba(15,23,42,0.14)]">
-                  <div className="flex items-start justify-between gap-4">
-                    <p className="font-mono text-xs uppercase tracking-[0.14em] text-accent">
-                      {project.code}
-                    </p>
-                    <span className="shrink-0 rounded-full border border-border bg-surface px-3 py-1 font-mono text-xs font-semibold text-accent">
+                <article className="group flex h-full flex-col overflow-hidden rounded-[1.75rem] border border-border bg-background shadow-[0_24px_70px_rgba(15,23,42,0.14)]">
+                  <div className="relative h-44 shrink-0 overflow-hidden border-b border-border bg-surface">
+                    <Image
+                      src={resolveProjectScreenshot(project.screenshot_url)}
+                      alt={`${project.name} project screenshot`}
+                      fill
+                      unoptimized
+                      sizes="(max-width: 640px) 82vw, 360px"
+                      className="object-cover object-top transition-transform duration-500 group-hover:scale-[1.03]"
+                    />
+                    <span className="absolute top-4 left-4 rounded-full border border-white/80 bg-white/90 px-3 py-1 font-mono text-xs font-semibold text-accent shadow-sm backdrop-blur">
                       {String(index + 1).padStart(2, "0")}
                     </span>
                   </div>
 
-                  <div className="flex flex-1 flex-col">
+                  <div className="flex flex-1 flex-col p-6">
+                    <p className="font-mono text-xs uppercase tracking-[0.14em] text-accent">
+                      {project.code}
+                    </p>
                     <h3 className="mt-3 line-clamp-2 text-xl font-semibold tracking-tight">
                       {project.name}
                     </h3>
@@ -233,16 +246,43 @@ export function ProjectGallery() {
                       {project.summary}
                     </p>
 
-                    <a
-                      href={project.links.live}
-                      onClick={(event) => {
-                        if (project.links.live === "#") event.preventDefault();
-                      }}
-                      className="mt-auto inline-flex items-center gap-2 pt-5 font-semibold text-accent"
-                    >
-                      Live preview
-                      <ExternalLink size={16} aria-hidden="true" />
-                    </a>
+                    {project.technologies.length > 0 && (
+                      <ul
+                        className="mt-4 flex flex-wrap gap-1.5"
+                        aria-label={`${project.name} technologies`}
+                      >
+                        {project.technologies.map((technology) => (
+                          <li
+                            key={technology}
+                            className="rounded-md border border-accent/15 bg-accent-soft px-2 py-1 text-xs font-medium text-accent"
+                          >
+                            {technology}
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+
+                    <div className="mt-auto flex items-center gap-4 pt-5">
+                      <Link
+                        href={`/projects/${project.slug}`}
+                        className="inline-flex items-center gap-2 font-semibold text-accent"
+                      >
+                        View details
+                        <ArrowRight size={16} aria-hidden="true" />
+                      </Link>
+
+                      {project.links.live !== "#" && (
+                        <a
+                          href={project.links.live}
+                          className="inline-flex items-center gap-1.5 text-sm font-medium text-muted transition-colors hover:text-accent"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Live
+                          <ExternalLink size={14} aria-hidden="true" />
+                        </a>
+                      )}
+                    </div>
                   </div>
                 </article>
               </li>

@@ -2,66 +2,86 @@
   "schemaVersion": "1.0",
   "meta": {
     "title": "Professional Project Archive",
-    "description": "Structured project history for the portfolio. Enrich summaries, technologies, categories, featured flags, and live links as details become available.",
-    "source": "Imjol Office project dashboard",
-    "sourceFilter": "jalal",
-    "totalProjects": 54,
-    "lastUpdated": "2026-08-26"
+    "description": "Structured project history for the portfolio. Enrich summaries, technologies, categories, featured flags, and live links as details become available."
   },
   "projects": [
     {
-      "id": "imjol-109",
-      "slug": "darpon-fix",
-      "name": "Darpon",
-      "code": "darpon fix",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
+      "id": "PJ-01",
+      "slug": "darpon-lml",
+      "name": "Darpon LMS",
+      "code": "darpon lms",
+      "summary": "Darpon is a full-featured LMS web application built with Laravel and React. It provides the core functionality for an online learning management platform while also supporting online book sales.",
+      "description": "Darpon LMS is a comprehensive learning management and online book-commerce platform built with Laravel, React, and Inertia.js. It brings course delivery, educational content, and book sales into a unified digital experience for learners and administrators. Laravel handles the application's business logic and server-side workflows, while React and Tailwind CSS provide a responsive, accessible interface. MySQL stores structured learning and commerce data, with Redis supporting caching and efficient background processing.",
+      "technologies": [
+        "Laravel",
+        "React",
+        "Tailwind CSS",
+        "Inertia.js",
+        "MySQL",
+        "Redis"
+      ],
+      "screenshot_url": "./project-ss/darpon-lms.png",
       "links": {
-        "live": "#"
+        "live": "https://darponbd.com/"
       }
     },
     {
-      "id": "imjol-105",
+      "id": "PJ-02",
       "slug": "trading-chart",
       "name": "Trading Chart",
       "code": "Trading Chart",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
+      "summary": "Trading Chart is a full-featured learning management and live-streaming platform built for delivering interactive online education. It provides comprehensive LMS functionality, secure payment processing, AI-powered chat assistance, and real-time WebSocket support using Laravel Reverb.",
+      "description": "Trading Chart is a full-featured learning management and live-streaming platform designed for interactive online education. It combines course delivery, secure payment workflows, AI-assisted chat, and real-time user support within one connected system. Laravel powers the core application services and WebSocket communication, while React provides a responsive interface for learners and administrators. PostgreSQL manages the platform's structured data, and the AI MCP integration extends the learning experience with intelligent, contextual assistance.",
+      "technologies": [
+        "Laravel",
+        "React",
+        "WebSocket",
+        "PostgreSQL",
+        "Live streaming",
+        "AI MCP"
+      ],
+      "screenshot_url": "./project-ss/trading-chart.png",
       "links": {
-        "live": "#"
+        "live": "https://tradingchart.org/"
       }
     },
     {
-      "id": "imjol-104",
-      "slug": "minimal-ecommerce",
-      "name": "Minimal Ecommerce",
-      "code": "Minimal Ecommerce",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
+      "id": "PJ-03",
+      "slug": "paikari-world",
+      "name": "Paikari World - E-commerce",
+      "code": "Paikari World",
+      "summary": "Paikari World is a full-featured e-commerce platform built with Laravel and React. It provides a robust and scalable solution for online shopping, with features such as whole selling settings, inventory management, payment gateway integration, and more.",
+      "description": "Paikari World is a scalable wholesale e-commerce platform developed with Laravel, React, and Inertia.js. It supports product catalog management, wholesale pricing configurations, inventory control, customer ordering, and payment gateway integration through a cohesive application experience. Laravel manages the commerce rules and backend workflows, while React and Tailwind CSS deliver a responsive storefront and administration interface. PostgreSQL provides reliable relational data storage, with Redis improving caching and background task performance.",
+      "technologies": [
+        "Laravel",
+        "React",
+        "Tailwind CSS",
+        "Inertia.js",
+        "PostgreSQL",
+        "Redis"
+      ],
+      "screenshot_url": "./project-ss/paikari-world.png",
       "links": {
-        "live": "#"
+        "live": "https://paikariworld.com/"
       }
     },
     {
-      "id": "imjol-103",
-      "slug": "paikari-world-task-list",
-      "name": "Paikari World Laravel Project Tasks",
-      "code": "Paikari World Task List",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
+      "id": "PJ-04",
+      "slug": "real-estate",
+      "name": "U.S. Real Estate Platform",
+      "code": "real-estate",
+      "summary": "A U.S.-focused real estate platform built with Laravel, React, TypeScript, and PostgreSQL, featuring web-scraping workflows for collecting and organizing property data.",
+      "description": "This U.S.-focused real estate platform brings property information into a structured, searchable digital experience. Laravel powers the backend business logic and data-processing workflows, while React and TypeScript provide a responsive, maintainable frontend. PostgreSQL stores normalized property and listing data, and purpose-built web-scraping workflows collect information from external sources for centralized management. The architecture separates data acquisition, server-side processing, and presentation concerns, creating a dependable foundation for managing and exploring real estate listings.",
+      "technologies": [
+        "Laravel",
+        "React",
+        "TypeScript",
+        "PostgreSQL",
+        "Web Scraping"
+      ],
+      "screenshot_url": "./project-ss/real-estate.png",
       "links": {
-        "live": "#"
-      }
-    },
-    {
-      "id": "imjol-101",
-      "slug": "real-estate-project-with-scrapping",
-      "name": "Real estate project",
-      "code": "real-estate-project-with-scrapping",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "links": {
-        "live": "#"
+        "live": "https://github.com/shahjalal132/real-estate"
       }
     },
     {
@@ -70,7 +90,9 @@
       "name": "Magic LMS fix/improvements",
       "code": "magic-lms",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -81,7 +103,9 @@
       "name": "Akcent Wholesaler API Project",
       "code": "wholesaler-project",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -92,7 +116,9 @@
       "name": "Shopify App Development",
       "code": "shopify-app-develop",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -103,7 +129,9 @@
       "name": "ImjolWP - AI Automation for WordPress",
       "code": "ImjolWP",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -114,7 +142,9 @@
       "name": "Paymongo Payment Gateway Devlopment",
       "code": "paymongo-payment-gateway",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -125,7 +155,9 @@
       "name": "NMI & Konnektive CRM Integration",
       "code": "nmi-and-konnektive-integration",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -136,7 +168,9 @@
       "name": "Linkedin & Gamipress API Integration",
       "code": "Linkedin & Gamipress API Integration",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -147,7 +181,9 @@
       "name": "Pedro Game Deploy",
       "code": "Pedro Game Deploy",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -158,7 +194,9 @@
       "name": "Zenoti API Integration",
       "code": "zenoti-api-integration",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -169,7 +207,9 @@
       "name": "Integrate Moogold api to laravel script",
       "code": "moogold-to-laravel-script",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -180,7 +220,9 @@
       "name": "Import property from json and csv and modify using openai API",
       "code": "property-json-csv-and-openai-api",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -191,7 +233,9 @@
       "name": "datalab API Integration",
       "code": "datalab API Integration",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -202,7 +246,9 @@
       "name": "Shopee API Integration to Woocommerce",
       "code": "shopee-to-woocommerce",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -213,7 +259,9 @@
       "name": "Gesden API to Bookly",
       "code": "gesden-api-to-bookly",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -224,7 +272,9 @@
       "name": "Wasp Inventory API to Woocommerce",
       "code": "wasp-inventory-api",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -235,7 +285,9 @@
       "name": "Shipgate API Integration",
       "code": "shipgate-api-to-woocommerce",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -246,7 +298,9 @@
       "name": "eCommerce website from HTML site",
       "code": "ecommerce-website-from-html-site",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -257,7 +311,9 @@
       "name": "Integrate affiliate wp to intake Q",
       "code": "integrate-affiliate-wp-to-intake-Q",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -268,7 +324,9 @@
       "name": "Payway Payment Gateway to Woocommerce",
       "code": "integrate-payway-payment-gateway",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -279,7 +337,9 @@
       "name": "IPTV API Integration and connect 2 websites with gravity form and woocommerce",
       "code": "iptv-api-and-2-websites-connection",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -290,7 +350,9 @@
       "name": "Clone Website using Elementor",
       "code": "clone-elementor-website",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -301,7 +363,9 @@
       "name": "Midocean clone and API Integration",
       "code": "midocean-clone-and-api-integration",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -312,7 +376,9 @@
       "name": "NHN Cloud - WooCommerce Order api integration",
       "code": "NHN Cloud - WooCommerce Order api integration",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -323,7 +389,9 @@
       "name": "AlimTalk Kakao SMS Gateway",
       "code": "alimtalk-sms",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -334,7 +402,9 @@
       "name": "Zen Payment Gateway Development",
       "code": "Zen Payment Gateway Development",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -345,7 +415,9 @@
       "name": "Home Appliancepr Woocommerc Product Import and dropshiping integration",
       "code": "homeappliancepr-woocommerc-product-import",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -356,7 +428,9 @@
       "name": "Jumia Api Integration",
       "code": "Jumia Api Integration",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -367,7 +441,9 @@
       "name": "Lindor furniture and Dropshiping",
       "code": "Lindor furniture",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -378,7 +454,9 @@
       "name": "Course LMS",
       "code": "Course LMS",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -389,7 +467,9 @@
       "name": "cloverimaging api to woocommerce",
       "code": "cloverimaging-api-to-woocommerce",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -400,7 +480,9 @@
       "name": "Meezaban Woocommerce Gateway",
       "code": "meezanbank-gateway",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -411,7 +493,9 @@
       "name": "Javelin woocommerce Payment Gateway",
       "code": "javelin-payment-gateway",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -422,7 +506,9 @@
       "name": "Vendorapi Amrod Co Za API",
       "code": "vendorapi-amrod-co-za API",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -433,7 +519,9 @@
       "name": "NMI Payment gateway project",
       "code": "nmi-payment-gateway",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -444,7 +532,9 @@
       "name": "Pvamarkets ",
       "code": "pvamarkets",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -455,7 +545,9 @@
       "name": "School Management Pro",
       "code": "school_management_pro",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
@@ -466,7 +558,9 @@
       "name": "CSV to Woocommerce Product",
       "code": "csv-to-woocommerce",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
+      "screenshot_url": "./placeholder-image.png",
       "links": {
         "live": "#"
       }
