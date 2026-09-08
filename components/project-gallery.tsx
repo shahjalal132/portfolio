@@ -11,12 +11,49 @@ type ProjectGalleryProps = {
   projects: Project[];
 };
 
-export function ProjectGallery({ projects }: ProjectGalleryProps) {
+export function ProjectGallery({
+  projects: initialProjects,
+}: ProjectGalleryProps) {
   const galleryRef = useRef<HTMLDivElement>(null);
   const previousRef = useRef<HTMLButtonElement>(null);
   const nextRef = useRef<HTMLButtonElement>(null);
   const cardRefs = useRef<Array<HTMLLIElement | null>>([]);
+  const projectsSnapshotRef = useRef(JSON.stringify(initialProjects));
+  const [projects, setProjects] = useState(initialProjects);
   const [activeIndex, setActiveIndex] = useState(0);
+
+  useEffect(() => {
+    if (process.env.NODE_ENV !== "development") return;
+
+    let cancelled = false;
+
+    const refreshProjects = async () => {
+      try {
+        const response = await fetch("/api/projects", { cache: "no-store" });
+        if (!response.ok || cancelled) return;
+
+        const data = (await response.json()) as { projects?: Project[] };
+        if (!Array.isArray(data.projects)) return;
+
+        const nextSnapshot = JSON.stringify(data.projects);
+        if (nextSnapshot === projectsSnapshotRef.current) return;
+
+        projectsSnapshotRef.current = nextSnapshot;
+        cardRefs.current = [];
+        setProjects(data.projects);
+      } catch {
+        // Retain the last valid snapshot while the development server reloads.
+      }
+    };
+
+    void refreshProjects();
+    const intervalId = window.setInterval(refreshProjects, 1500);
+
+    return () => {
+      cancelled = true;
+      window.clearInterval(intervalId);
+    };
+  }, []);
 
   useEffect(() => {
     let cancelled = false;
@@ -155,7 +192,7 @@ export function ProjectGallery({ projects }: ProjectGalleryProps) {
       cancelled = true;
       dispose?.();
     };
-  }, []);
+  }, [projects]);
 
   return (
     <section id="gallery" className="overflow-hidden border-y border-border">

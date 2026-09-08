@@ -1,4 +1,4 @@
-{
+﻿{
   "schemaVersion": "1.0",
   "meta": {
     "title": "Professional Project Archive",
@@ -85,118 +85,91 @@
       }
     },
     {
-      "id": "imjol-100",
+      "id": "PJ-05",
       "slug": "magic-lms",
-      "name": "Magic LMS fix/improvements",
+      "name": "Magic LMS",
       "code": "magic-lms",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
+      "summary": "Magic LMS is an AI-oriented learning management system for creating, delivering, and monetizing online education through multimedia courses, live classes, assessments, subscriptions, and collaborative learning tools.",
+      "description": "Magic LMS is a complete e-learning platform designed for individual instructors, coaching centers, training institutes, and organizations. Its role-based experience gives administrators control over users, instructors, subscriptions, payments, and platform settings; enables instructors to build video, text, PDF, quiz, and Zoom-based courses; and allows students to purchase courses, track progress, download materials, participate in discussions, and earn certificates. DeepInfra-powered AI tools support modern content workflows, while private messaging and a community forum encourage engagement between learners and instructors. Built with Laravel, React, and Inertia.js on PHP 8 and MySQL 8, the system combines secure server-side business logic with a fast, responsive application interface.",
+      "technologies": ["Laravel", "React", "MySQL"],
+      "screenshot_url": "./project-ss/magic-lms.png",
+      "links": {
+        "live": "https://codecanyon.net/item/magic-lms-ai-oriented-learning-management-system/57593011?gad_source=1&gad_campaignid=12562519391&gbraid=0AAAAADgFCsCe0EWzhDUFXUcctbnecdUqX&gclid=Cj0KCQjw5P7UBhDaARIsAOSlS1PCn9uPEg7hpeyAoyzf-mnKFDIeVTgNMXAcv96QsrgkIdUZEcdzmmAaAqj5EALw_wcB#"
+      }
+    },
+    {
+      "id": "PJ-06",
+      "slug": "wp-automation-for-wordpress",
+      "name": "AI Automation for WordPress",
+      "code": "wp-automation-for-wordpress",
+      "summary": "A self-hosted WordPress automation plugin that connects website and Facebook workflows through n8n while synchronizing stock, inventory, and order data across connected systems.",
+      "description": "AI Automation for WordPress is a custom plugin and workflow solution designed to reduce repetitive website and social media operations. The plugin connects WordPress with a self-hosted n8n environment, allowing site events and business data to trigger manageable automation workflows. It coordinates Facebook automation and keeps stock, inventory, and order information synchronized between connected services. WordPress and PHP provide the site-side integration layer, while REST APIs and webhooks enable reliable communication with n8n and the Facebook API. The self-hosted architecture gives the business greater control over workflow execution, operational data, and future automation extensions.",
+      "technologies": [
+        "WordPress",
+        "PHP",
+        "n8n",
+        "Facebook API",
+        "REST API",
+        "Webhooks",
+        "Self-Hosted Automation"
+      ],
+      "screenshot_url": "./project-ss/n8n-automation.png",
       "links": {
         "live": "#"
       }
     },
     {
-      "id": "imjol-99",
-      "slug": "wholesaler-project",
-      "name": "Akcent Wholesaler API Project",
-      "code": "wholesaler-project",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
-      "id": "imjol-98",
-      "slug": "shopify-app-develop",
-      "name": "Shopify App Development",
-      "code": "shopify-app-develop",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
-      "id": "imjol-97",
-      "slug": "imjolwp",
-      "name": "ImjolWP - AI Automation for WordPress",
-      "code": "ImjolWP",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
-      "id": "imjol-93",
+      "id": "PJ-07",
       "slug": "paymongo-payment-gateway",
-      "name": "Paymongo Payment Gateway Devlopment",
+      "name": "Paymongo WooCommerce Payment Gateway",
       "code": "paymongo-payment-gateway",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
+      "summary": "A custom WooCommerce payment gateway plugin that integrates PayMongo's API directly into the checkout process, enabling the client's store to securely accept and manage online payments.",
+      "description": "This project delivered a purpose-built PayMongo payment gateway for a WooCommerce store that could not rely on an official WordPress integration. Working from the client's API documentation and credentials, I developed a custom plugin that connects WooCommerce checkout requests with PayMongo's payment services. The integration translates payment responses into the appropriate WooCommerce order states, provides customers with clear transaction feedback, and gives the store owner a practical payment workflow within the existing administration environment. The result removed the platform-integration gap and enabled the client to accept PayMongo payments directly through their online store.",
+      "technologies": [
+        "WordPress",
+        "WooCommerce",
+        "PayMongo API",
+        "Custom Plugin Development"
+      ],
+      "screenshot_url": "./project-ss/paymongo.png",
       "links": {
         "live": "#"
       }
     },
     {
-      "id": "imjol-92",
+      "id": "PJ-08",
       "slug": "nmi-and-konnektive-integration",
       "name": "NMI & Konnektive CRM Integration",
       "code": "nmi-and-konnektive-integration",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
+      "summary": "A custom API integration connecting NMI payments with Konnektive CRM, automatically transferring customer, order, and transaction data for centralized analysis and marketing operations.",
+      "description": "This project connected the NMI payment platform with Konnektive CRM to create a continuous flow of e-commerce data between payment processing and customer management. After a customer placed an order or completed a payment, the integration collected the relevant customer, order, and transaction information and transferred it to Konnektive through its API. The synchronized records gave the client a centralized view of purchasing activity for business analysis, customer segmentation, and performance tracking. With this data available in the CRM, the client could develop targeted offers, support advertising campaigns, and make more informed marketing decisions without manually moving information between platforms.",
+      "technologies": [
+        "NMI API",
+        "Konnektive CRM API",
+        "E-Commerce Integration",
+        "Payment Integration",
+        "CRM Automation"
+      ],
+      "screenshot_url": "./project-ss/nmi.png",
       "links": {
         "live": "#"
       }
     },
     {
-      "id": "imjol-90",
-      "slug": "linkedin-gamipress-api-integration",
-      "name": "Linkedin & Gamipress API Integration",
-      "code": "Linkedin & Gamipress API Integration",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
-      "id": "imjol-86",
-      "slug": "pedro-game-deploy",
-      "name": "Pedro Game Deploy",
-      "code": "Pedro Game Deploy",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
-      "id": "imjol-83",
-      "slug": "zenoti-api-integration",
-      "name": "Zenoti API Integration",
-      "code": "zenoti-api-integration",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
+      "id": "PJ-09",
+      "slug": "linkedin-gamipress-integration",
+      "name": "LinkedIn & GamiPress Integration",
+      "code": "linkedin-gamipress-integration",
+      "summary": "A verified social-reward integration that connects LinkedIn with GamiPress, awarding redeemable coins only after a user's shared blog post has been successfully confirmed.",
+      "description": "The client operated several blogging websites where registered users could share published content, earn coins through GamiPress, and later convert those rewards into cash. The original implementation granted coins as soon as a user clicked the LinkedIn share button, even when the post was never published, making the reward process unreliable. I integrated LinkedIn APIs and webhooks to verify that a share was successfully submitted before triggering the corresponding GamiPress reward. By connecting verified LinkedIn activity with the correct user and blog post, the new workflow protects reward integrity, reduces unverified coin claims, and provides a dependable foundation for managing influencer participation across the client's websites.",
+      "technologies": [
+        "WordPress",
+        "GamiPress",
+        "LinkedIn API",
+        "Webhooks",
+        "OAuth 2.0"
+      ],
+      "screenshot_url": "./project-ss/gamipress.png",
       "links": {
         "live": "#"
       }
@@ -228,75 +201,10 @@
       }
     },
     {
-      "id": "imjol-79",
-      "slug": "datalab-api-integration",
-      "name": "datalab API Integration",
-      "code": "datalab API Integration",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
-      "id": "imjol-74",
-      "slug": "shopee-to-woocommerce",
-      "name": "Shopee API Integration to Woocommerce",
-      "code": "shopee-to-woocommerce",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
-      "id": "imjol-73",
-      "slug": "gesden-api-to-bookly",
-      "name": "Gesden API to Bookly",
-      "code": "gesden-api-to-bookly",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
       "id": "imjol-64",
       "slug": "wasp-inventory-api",
       "name": "Wasp Inventory API to Woocommerce",
       "code": "wasp-inventory-api",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
-      "id": "imjol-60",
-      "slug": "shipgate-api-to-woocommerce",
-      "name": "Shipgate API Integration",
-      "code": "shipgate-api-to-woocommerce",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
-      "id": "imjol-58",
-      "slug": "ecommerce-website-from-html-site",
-      "name": "eCommerce website from HTML site",
-      "code": "ecommerce-website-from-html-site",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
@@ -319,62 +227,10 @@
       }
     },
     {
-      "id": "imjol-53",
-      "slug": "integrate-payway-payment-gateway",
-      "name": "Payway Payment Gateway to Woocommerce",
-      "code": "integrate-payway-payment-gateway",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
-      "id": "imjol-51",
-      "slug": "iptv-api-and-2-websites-connection",
-      "name": "IPTV API Integration and connect 2 websites with gravity form and woocommerce",
-      "code": "iptv-api-and-2-websites-connection",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
-      "id": "imjol-48",
-      "slug": "clone-elementor-website",
-      "name": "Clone Website using Elementor",
-      "code": "clone-elementor-website",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
       "id": "imjol-43",
       "slug": "midocean-clone-and-api-integration",
       "name": "Midocean clone and API Integration",
       "code": "midocean-clone-and-api-integration",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
-      "id": "imjol-38",
-      "slug": "nhn-cloud-woocommerce-order-api-integration",
-      "name": "NHN Cloud - WooCommerce Order api integration",
-      "code": "NHN Cloud - WooCommerce Order api integration",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
@@ -397,36 +253,10 @@
       }
     },
     {
-      "id": "imjol-36",
-      "slug": "zen-payments-gateway-develop",
-      "name": "Zen Payment Gateway Development",
-      "code": "Zen Payment Gateway Development",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
       "id": "imjol-35",
       "slug": "homeappliancepr-woocommerc-product-import",
       "name": "Home Appliancepr Woocommerc Product Import and dropshiping integration",
       "code": "homeappliancepr-woocommerc-product-import",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
-      "id": "imjol-30",
-      "slug": "jumia-api-integration",
-      "name": "Jumia Api Integration",
-      "code": "Jumia Api Integration",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
@@ -449,75 +279,10 @@
       }
     },
     {
-      "id": "imjol-26",
-      "slug": "course-lms-landing-page",
-      "name": "Course LMS",
-      "code": "Course LMS",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
       "id": "imjol-23",
       "slug": "cloverimaging-api-to-woocommerce",
       "name": "cloverimaging api to woocommerce",
       "code": "cloverimaging-api-to-woocommerce",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
-      "id": "imjol-21",
-      "slug": "meezanbank-gateway",
-      "name": "Meezaban Woocommerce Gateway",
-      "code": "meezanbank-gateway",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
-      "id": "imjol-20",
-      "slug": "javelin-payment-gateway",
-      "name": "Javelin woocommerce Payment Gateway",
-      "code": "javelin-payment-gateway",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
-      "id": "imjol-17",
-      "slug": "vendorapi-amrod-co-za-api",
-      "name": "Vendorapi Amrod Co Za API",
-      "code": "vendorapi-amrod-co-za API",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
-      "id": "imjol-15",
-      "slug": "nmi-payment-gateway",
-      "name": "NMI Payment gateway project",
-      "code": "nmi-payment-gateway",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],
@@ -544,19 +309,6 @@
       "slug": "school-management-pro",
       "name": "School Management Pro",
       "code": "school_management_pro",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
-      "id": "imjol-3",
-      "slug": "csv-to-woocommerce",
-      "name": "CSV to Woocommerce Product",
-      "code": "csv-to-woocommerce",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "technologies": [],

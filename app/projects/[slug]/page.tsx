@@ -4,7 +4,7 @@ import Link from "next/link";
 import { ArrowLeft, ArrowUpRight, Code2, Layers3 } from "lucide-react";
 import {
   getProjectBySlug,
-  projects,
+  getProjects,
   resolveProjectScreenshot,
 } from "@/lib/projects";
 
@@ -15,7 +15,7 @@ type ProjectDetailsPageProps = {
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return projects.map((project) => ({ slug: project.slug }));
+  return getProjects().map((project) => ({ slug: project.slug }));
 }
 
 export async function generateMetadata({

@@ -20,7 +20,7 @@ import { ProjectGallery } from "@/components/project-gallery";
 import { SmoothScroll } from "@/components/smooth-scroll";
 import profilePhoto from "@/data/Jalal.png";
 import { portfolioData } from "@/lib/portfolio";
-import { projects as archiveProjects } from "@/lib/projects";
+import { getProjects } from "@/lib/projects";
 
 const sectionHeading =
   "font-mono text-xs font-semibold uppercase tracking-[0.2em] text-accent";
@@ -41,6 +41,7 @@ const socialMarks: Record<string, string> = {
 };
 
 export default function Home() {
+  const archiveProjects = getProjects();
   const { profile, experience, projects, skills } = portfolioData.portfolio;
   const github = profile.contact.links.find((link) => link.id === "github");
   const socialLinks = profile.contact.links.filter(
