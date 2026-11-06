@@ -175,146 +175,24 @@
       }
     },
     {
-      "id": "imjol-82",
-      "slug": "moogold-to-laravel-script",
-      "name": "Integrate Moogold api to laravel script",
-      "code": "moogold-to-laravel-script",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
+      "id": "pj-10",
+      "slug": "maildoll",
+      "name": "Maildoll - Email & SMS Marketing SaaS",
+      "code": "maildoll",
+      "summary": "Contributed to Maildoll, a self-hosted SaaS platform for creating, automating, sending, and analyzing large-scale email and SMS marketing campaigns.",
+      "description": "I contributed to the development and ongoing improvement of Maildoll, a self-hosted email and SMS marketing SaaS application built for businesses and marketing service providers. The platform enables users to manage unlimited contacts, organize segmented lists, create responsive email and SMS templates, schedule campaigns, process bulk messages through queues, and monitor delivery, opens, clicks, bounces, and campaign performance. It supports multiple SMTP services and SMS gateways, autoresponders, subscription plans, payment gateways, user limits, multi-language configuration, and team-based account management. Built with Laravel, PHP, and MySQL, Maildoll gives organizations control over their marketing infrastructure while providing the operational tools required to run and monetize email and SMS services.",
+      "technologies": [
+        "Laravel",
+        "PHP 8",
+        "MySQL",
+        "SMTP",
+        "Email Queues",
+        "SMS Gateways",
+        "SaaS Architecture"
+      ],
+      "screenshot_url": "./project-ss/maildoll.png",
       "links": {
-        "live": "#"
-      }
-    },
-    {
-      "id": "imjol-81",
-      "slug": "property-json-csv-and-openai-api",
-      "name": "Import property from json and csv and modify using openai API",
-      "code": "property-json-csv-and-openai-api",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
-      "id": "imjol-64",
-      "slug": "wasp-inventory-api",
-      "name": "Wasp Inventory API to Woocommerce",
-      "code": "wasp-inventory-api",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
-      "id": "imjol-54",
-      "slug": "integrate-affiliate-wp-to-intake-q",
-      "name": "Integrate affiliate wp to intake Q",
-      "code": "integrate-affiliate-wp-to-intake-Q",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
-      "id": "imjol-43",
-      "slug": "midocean-clone-and-api-integration",
-      "name": "Midocean clone and API Integration",
-      "code": "midocean-clone-and-api-integration",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
-      "id": "imjol-37",
-      "slug": "alimtalk-sms",
-      "name": "AlimTalk Kakao SMS Gateway",
-      "code": "alimtalk-sms",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
-      "id": "imjol-35",
-      "slug": "homeappliancepr-woocommerc-product-import",
-      "name": "Home Appliancepr Woocommerc Product Import and dropshiping integration",
-      "code": "homeappliancepr-woocommerc-product-import",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
-      "id": "imjol-27",
-      "slug": "lindor-furniture",
-      "name": "Lindor furniture and Dropshiping",
-      "code": "Lindor furniture",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
-      "id": "imjol-23",
-      "slug": "cloverimaging-api-to-woocommerce",
-      "name": "cloverimaging api to woocommerce",
-      "code": "cloverimaging-api-to-woocommerce",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
-      "id": "imjol-7",
-      "slug": "pvamarkets",
-      "name": "Pvamarkets ",
-      "code": "pvamarkets",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
-      "links": {
-        "live": "#"
-      }
-    },
-    {
-      "id": "imjol-6",
-      "slug": "school-management-pro",
-      "name": "School Management Pro",
-      "code": "school_management_pro",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "technologies": [],
-      "screenshot_url": "./placeholder-image.png",
-      "links": {
-        "live": "#"
+        "live": "https://codecanyon.net/item/maildoll-email-sms-marketing-application/30467920"
       }
     }
   ]
