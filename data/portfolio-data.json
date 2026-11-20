@@ -1,11 +1,15 @@
 {
   "schemaVersion": "1.0.0",
-  "lastUpdated": "2026-08-26",
+  "lastUpdated": "2026-11-20",
   "portfolio": {
     "settings": {
       "locale": "en",
       "layout": "single-page",
-      "audience": ["hiring-managers", "technical-leads", "internal-recruiters"],
+      "audience": [
+        "hiring-managers",
+        "technical-leads",
+        "internal-recruiters"
+      ],
       "sectionOrder": [
         "about",
         "experience",
@@ -46,7 +50,7 @@
     },
     "profile": {
       "name": "Muhammad Shah Jalal",
-      "headline": "Software Developer",
+      "headline": "Full-Stack Software Developer | Technical Support Engineer",
       "location": {
         "city": "Dhaka",
         "country": "Bangladesh",
@@ -79,14 +83,14 @@
           }
         ]
       },
-      "summary": "Full-Stack Software Developer with 4+ years of hands-on web development experience, including 3+ years across documented professional roles. Brings over 3 years of experience with WordPress and WooCommerce and more than 2 years specializing in Laravel. Skilled in building scalable web applications, custom e-commerce platforms, REST APIs, backend integrations, and optimized database solutions. Currently focused on AI-assisted development and workflow automation using Codex, Claude, and open-source local LLMs, with practical experience in AI model evaluation, quality assurance, and autonomous multi-platform workflows.",
+      "summary": "Full-Stack Software Developer with 4+ years of hands-on experience — 3+ years with WordPress and WooCommerce and 2+ years specializing in Laravel — building scalable web applications, custom e-commerce platforms, REST APIs (documented with Swagger), and optimized database solutions (MySQL, MariaDB with master–slave replication, PostgreSQL). Currently also a Technical Support Engineer at Strontium Corp (Canada, remote), owning support for three AI SaaS products in a 15+ member global team providing 24/7 support in English: end-to-end ticket ownership in Help Scout, defect reproduction, testing failed jobs against internal ML backend APIs, and production-team QA. Hands-on with server and network infrastructure — VPS management, Cloudflare DNS, TCP/IP, routing, SSL/TLS and PKI, firewall rules, proxy and custom mail server configuration, and SSO/MFA (Authentik). Focused on AI-assisted development and workflow automation using Codex, Claude, and local LLMs, including AI model evaluation and benchmarking for an ML team.",
       "focusAreas": [
         "Laravel application development",
         "WordPress and WooCommerce development",
-        "AI-assisted development",
-        "Workflow automation",
-        "Backend integrations",
-        "Quality assurance and model evaluation"
+        "AI-assisted development and workflow automation",
+        "Backend integrations and REST APIs",
+        "Technical support, QA and model evaluation",
+        "Server, network and DNS management"
       ]
     },
     "experience": [
@@ -110,15 +114,23 @@
         "highlights": [
           {
             "label": "Technical Support",
-            "description": "Provide timely technical assistance to users by troubleshooting issues, explaining product functionality, and guiding them through AI-focused workflows."
+            "description": "Own technical support for three AI SaaS products — Artistly, CloneVoice, and VideoExpress — across Help Scout, two Facebook product communities, and direct messages, in a 15+ member multi-region team providing 24/7 support in English; resolve tickets end to end, from first response and follow-up to a complete, tested answer, with Loom walkthroughs and Google Meet calls where needed."
+          },
+          {
+            "label": "Issue Resolution and Escalation",
+            "description": "For failed generation jobs, take the user's job ID, extract the expected result, prepare prompts, and call internal ML backend APIs or the web apps to produce the correct result, return it to the user, and collect feedback. Triage community and ticket feedback into feature requests, critical issues, standard issues, and frustrated users; file Jira tasks tracked over Slack, escalate to developers and ML engineers, and follow up until the fix is verified and users are informed."
           },
           {
             "label": "Quality Assurance",
-            "description": "Test product features and workflows, identify defects and usability issues, and prepare detailed reports to support timely resolution."
+            "description": "Production-team QA assignments: feature testing, API testing and comparison across multiple APIs (Postman, cURL), staging vs production API verification, and new-app and workflow testing, including browser automation via AI agents."
           },
           {
             "label": "AI and ML Model Evaluation",
-            "description": "Collaborate with the machine learning team to test and explore open-source local models, document findings, and recommend suitable models and improvements."
+            "description": "Test local and newly hosted models for the ML team and send benchmark results with capability comparisons — including a four-model evaluation for agentic AI automation — documenting findings and recommending suitable models."
+          },
+          {
+            "label": "Feature Research That Shipped",
+            "description": "Researched the CloneVoice pronunciation editor end to end and assisted the developer through to release; researched and submitted the Artistly Jigsaw puzzle feature; worked with an ML engineer on CloneVoice voice design using internal self-hosted TTS models."
           },
           {
             "label": "AI Workflow Automation",
@@ -135,12 +147,12 @@
             ]
           },
           {
-            "label": "Development Support",
-            "description": "Collaborate with the development team to complete low- and medium-priority tasks, resolve technical issues, and improve product stability."
+            "label": "Identity and Access",
+            "description": "Use Authentik single sign-on (SSO) and MFA daily across internal tools and support systems."
           },
           {
-            "label": "Feature Research and Improvement",
-            "description": "Research emerging AI technologies and potential product features, providing practical recommendations to enhance functionality and user experience."
+            "label": "Mentorship and Reporting",
+            "description": "Train and mentor junior support staff; keep a daily Jira task board and a Google Docs daily report with screenshot evidence for handled cases."
           }
         ]
       },
@@ -177,6 +189,10 @@
           {
             "label": "Stakeholder Engagement",
             "description": "Facilitated post-delivery consultations and technical reviews with UK-based clients to gather feedback, ensure project alignment with business goals, and provide ongoing technical strategy."
+          },
+          {
+            "label": "Hosting and Infrastructure",
+            "description": "Managed VPS hosting and Cloudflare DNS for client sites; hands-on with TCP/IP, DNS, SSL/TLS certificates, and HTTP/S in production."
           }
         ]
       },
@@ -216,7 +232,7 @@
           },
           {
             "label": "Server Management",
-            "description": "Managed website deployments, hosting environments, configuration, maintenance, and technical troubleshooting."
+            "description": "Managed website deployments, hosting environments, configuration, maintenance, and technical troubleshooting, including VPS servers, Cloudflare DNS management, SSL/TLS certificate setup, and DNS / HTTP(S) issue resolution."
           },
           {
             "label": "Client Relationship Management",
@@ -252,7 +268,7 @@
           },
           {
             "label": "Infrastructure and DevOps",
-            "description": "Modernized the deployment workflow by implementing CI/CD pipelines, reducing integration friction and supporting seamless, high-availability updates for global product lines."
+            "description": "Modernized the deployment workflow by implementing CI/CD pipelines, reducing integration friction and supporting seamless, high-availability updates for global product lines. Managed VPS servers and Cloudflare DNS across the product portfolio, with hands-on TCP/IP, routing, DNS architecture, SSL/TLS and PKI, and HTTP/S work in production environments."
           },
           {
             "label": "Performance Engineering",
@@ -337,7 +353,12 @@
         "featured": true,
         "name": "RiceStream: Inventory and Financial Management System",
         "url": "https://arod.streetfashioner.com/",
-        "technologies": ["Laravel", "React.js", "Inertia.js", "MySQL"],
+        "technologies": [
+          "Laravel",
+          "React.js",
+          "Inertia.js",
+          "MySQL"
+        ],
         "highlights": [
           {
             "label": "ERP Development",
@@ -371,7 +392,11 @@
         "featured": true,
         "name": "AI-Powered Bilingual QA and Compliance Engine",
         "url": "https://api.sbec.cymru/",
-        "technologies": ["Laravel 13", "Gemini", "Redis"],
+        "technologies": [
+          "Laravel 13",
+          "Gemini",
+          "Redis"
+        ],
         "highlights": [
           {
             "label": "High-Scale Auditing",
@@ -397,7 +422,12 @@
         "featured": false,
         "name": "WooCommerce Multi-Tier Reseller and Ledger System",
         "url": "https://resellerhubbd.com/",
-        "technologies": ["PHP", "WooCommerce", "MySQL", "AJAX"],
+        "technologies": [
+          "PHP",
+          "WooCommerce",
+          "MySQL",
+          "AJAX"
+        ],
         "highlights": [
           {
             "label": "Financial Engineering",
@@ -462,7 +492,10 @@
         "groups": [
           {
             "label": "Frameworks",
-            "items": ["Laravel PHP", "Express.js"]
+            "items": [
+              "Laravel PHP",
+              "Express.js"
+            ]
           },
           {
             "label": "WordPress Core",
@@ -478,10 +511,20 @@
             "label": "Database and Logic",
             "items": [
               "MySQL",
+              "MariaDB",
               "SQLite",
               "PostgreSQL",
+              "Database Replication (Master-Slave)",
               "Redis Queues",
               "Scalable System Design"
+            ]
+          },
+          {
+            "label": "APIs",
+            "items": [
+              "REST API Development",
+              "Swagger API Documentation",
+              "Third-Party API Integrations"
             ]
           }
         ]
@@ -570,12 +613,62 @@
               "Nginx",
               "Apache",
               "Caddy",
+              "VPS Server Management",
+              "Cloudflare DNS",
+              "Custom Mail Server Configuration",
+              "Firewall Rules",
+              "Proxy Configuration",
+              "SSL/TLS and PKI",
+              "TCP/IP and DNS Architecture",
               "Datadog Server Monitoring"
             ]
           },
           {
             "label": "Workflow Tools",
-            "items": ["Git", "WP-CLI", "Postman", "PM2"]
+            "items": [
+              "Git",
+              "WP-CLI",
+              "Postman",
+              "cURL",
+              "PM2"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "technical-support-qa",
+        "label": "Technical Support and QA",
+        "groups": [
+          {
+            "label": "Support Operations",
+            "items": [
+              "Help Scout",
+              "Jira",
+              "Slack",
+              "Loom",
+              "Google Meet",
+              "Facebook Community Support",
+              "Help Content Writing",
+              "Ticket Triage and Escalation"
+            ]
+          },
+          {
+            "label": "Identity and Access",
+            "items": [
+              "Authentik",
+              "Single Sign-On (SSO)",
+              "MFA"
+            ]
+          },
+          {
+            "label": "Testing and Evaluation",
+            "items": [
+              "Defect Reproduction and Bug Reporting",
+              "API Testing (Postman, cURL)",
+              "Staging vs Production Verification",
+              "AI Model Benchmarking",
+              "Root-Cause Investigation with Logs"
+            ]
           }
         ]
       },
