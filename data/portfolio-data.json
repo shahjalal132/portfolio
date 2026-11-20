@@ -50,7 +50,7 @@
     },
     "profile": {
       "name": "Muhammad Shah Jalal",
-      "headline": "Full-Stack Software Developer | Technical Support Engineer",
+      "headline": "Full-Stack Developer & Technical Support Engineer",
       "location": {
         "city": "Dhaka",
         "country": "Bangladesh",
@@ -83,7 +83,7 @@
           }
         ]
       },
-      "summary": "Full-Stack Software Developer with 4+ years of hands-on experience — 3+ years with WordPress and WooCommerce and 2+ years specializing in Laravel — building scalable web applications, custom e-commerce platforms, REST APIs (documented with Swagger), and optimized database solutions (MySQL, MariaDB with master–slave replication, PostgreSQL). Currently also a Technical Support Engineer at Strontium Corp (Canada, remote), owning support for three AI SaaS products in a 15+ member global team providing 24/7 support in English: end-to-end ticket ownership in Help Scout, defect reproduction, testing failed jobs against internal ML backend APIs, and production-team QA. Hands-on with server and network infrastructure — VPS management, Cloudflare DNS, TCP/IP, routing, SSL/TLS and PKI, firewall rules, proxy and custom mail server configuration, and SSO/MFA (Authentik). Focused on AI-assisted development and workflow automation using Codex, Claude, and local LLMs, including AI model evaluation and benchmarking for an ML team.",
+      "summary": "Software professional with 4+ years of experience across full-stack development, technical support, and quality assurance — one continuous track record of building products and keeping them running for the people who use them. Builds scalable web applications, custom e-commerce platforms, and REST APIs (documented with Swagger) with Laravel/PHP, WordPress/WooCommerce, and React, backed by MySQL/MariaDB (master–slave replication) and PostgreSQL. At Strontium Corp (Canada, remote), that same experience runs support for three AI SaaS products end to end — Help Scout ticket ownership, defect reproduction, testing failed jobs against internal ML backend APIs, and production QA — in a 15+ member global team providing 24/7 support in English. Adds hands-on infrastructure depth: VPS and Cloudflare DNS management, TCP/IP, routing, SSL/TLS and PKI, firewall rules, proxy and custom mail server configuration, and SSO/MFA (Authentik) — plus AI-assisted development and workflow automation with Codex, Claude, and local LLMs, including evaluating and benchmarking ML models for an ML team.",
       "focusAreas": [
         "Laravel application development",
         "WordPress and WooCommerce development",

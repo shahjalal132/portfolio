@@ -117,7 +117,7 @@ export default function Home() {
             <div className="relative z-10 grid w-full gap-10 lg:grid-cols-[minmax(0,1fr)_370px] lg:items-center">
               <div>
                 <p className={sectionHeading}>
-                  Full-Stack Engineering + AI Automation
+                  Full-Stack Engineering + AI Automation + Technical Support
                 </p>
                 <h1 className="mt-4 max-w-4xl text-4xl font-bold leading-[1.03] tracking-[-0.04em] sm:text-5xl lg:text-[2.875rem]">
                   I build reliable digital products that turn complex workflows
