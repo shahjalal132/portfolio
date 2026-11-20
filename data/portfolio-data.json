@@ -450,6 +450,61 @@
             "description": "Developed automated commission credits for completed orders and penalty debits for returns, supporting transparent, real-time wallet balance management for B2B users."
           }
         ]
+      },
+      {
+        "id": "ai-saas-product-support",
+        "order": 6,
+        "featured": true,
+        "name": "Technical Support for AI SaaS Products: Artistly, CloneVoice & VideoExpress",
+        "url": "https://artistly.ai/",
+        "technologies": [
+          "Help Scout",
+          "Jira",
+          "Slack",
+          "Loom",
+          "Postman",
+          "Internal ML Backend APIs"
+        ],
+        "highlights": [
+          {
+            "label": "End-to-End Support Ownership",
+            "description": "Currently provide technical support for three production AI SaaS products — Artistly (AI image generation, artistly.ai), CloneVoice (AI voice cloning, clonevoice.ai), and VideoExpress (AI video creation, videoexpress.ai) — across Help Scout, Facebook product communities, and direct messages, in a 15+ member global team providing 24/7 support in English."
+          },
+          {
+            "label": "Engineering-Level Resolution",
+            "description": "Reproduce defects, test failed generation jobs against internal ML backend APIs and system logs, and return verified results to users; triage feature requests and issues into Jira and Slack, escalate to developers and ML engineers, and track fixes through to release."
+          },
+          {
+            "label": "Production QA and Model Evaluation",
+            "description": "Deliver production-team QA (feature and API testing, staging-vs-production verification, new-app and workflow testing) and benchmark newly hosted ML models for the ML team, including a four-model evaluation for agentic AI automation."
+          }
+        ]
+      },
+      {
+        "id": "maildoll-email-marketing-saas",
+        "order": 7,
+        "featured": true,
+        "name": "Maildoll: Email & SMS Marketing SaaS Application",
+        "url": "https://codecanyon.net/item/maildoll-email-sms-marketing-application/30467920",
+        "technologies": [
+          "Laravel",
+          "PHP",
+          "MySQL"
+        ],
+        "highlights": [
+          {
+            "label": "Contribution at Imjol",
+            "description": "Contributed as a Software Developer at Imjol to Maildoll, the team's flagship CodeCanyon product — a self-hosted email and SMS marketing SaaS application built with Laravel, with 900+ sales."
+          },
+          {
+            "label": "Product Lifecycle Work",
+            "description": "Worked on the product's ongoing development and lifecycle maintenance: resolving bugs from buyer feedback and reviews, shipping security patches, and sustaining compatibility with platform updates and high user ratings."
+          },
+          {
+            "label": "Platform Capabilities",
+            "description": "Bulk email and SMS campaigns, a drag-and-drop email builder, email verification, campaign scheduling, and SaaS subscription plans with PayPal and Stripe, where customers send through their own SMTP and SMS credentials."
+          }
+        ]
       }
     ],
     "skills": [
