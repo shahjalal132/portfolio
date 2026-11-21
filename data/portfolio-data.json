@@ -114,7 +114,7 @@
         "highlights": [
           {
             "label": "Technical Support",
-            "description": "Own technical support for three AI SaaS products — Artistly, CloneVoice, and VideoExpress — across Help Scout, two Facebook product communities, and direct messages, in a 15+ member multi-region team providing 24/7 support in English; resolve tickets end to end, from first response and follow-up to a complete, tested answer, with Loom walkthroughs and Google Meet calls where needed."
+            "description": "Own technical support for five AI SaaS products — Artistly, CloneVoice, TalkingPhotos, VideoExpress, and Videosly — across Help Scout, two Facebook product communities, and direct messages, in a 15+ member multi-region team providing 24/7 support in English; resolve tickets end to end, from first response and follow-up to a complete, tested answer, with Loom walkthroughs and Google Meet calls where needed. A sixth product, PodcastFlow (AI podcast creation, podcastflow.ai), is in beta testing and being added to my support scope."
           },
           {
             "label": "Issue Resolution and Escalation",
@@ -282,7 +282,7 @@
         "id": "ai-saas-product-support",
         "order": 1,
         "featured": true,
-        "name": "Technical Support for AI SaaS Products: Artistly, CloneVoice & VideoExpress",
+        "name": "Technical Support for AI SaaS Products: Artistly, CloneVoice, TalkingPhotos, VideoExpress & Videosly",
         "url": "https://artistly.ai/",
         "technologies": [
           "Help Scout",
@@ -295,7 +295,7 @@
         "highlights": [
           {
             "label": "End-to-End Support Ownership",
-            "description": "Currently provide technical support for three production AI SaaS products — Artistly (AI image generation, artistly.ai), CloneVoice (AI voice cloning, clonevoice.ai), and VideoExpress (AI video creation, videoexpress.ai) — across Help Scout, Facebook product communities, and direct messages, in a 15+ member global team providing 24/7 support in English."
+            "description": "Currently provide technical support for five production AI SaaS products — Artistly (AI image generation, artistly.ai), CloneVoice (AI voice cloning, clonevoice.ai), TalkingPhotos (AI talking-photo videos, talkingphotos.ai), VideoExpress (AI video creation, videoexpress.ai), and Videosly (AI video creation and scheduling, videosly.ai) — across Help Scout, Facebook product communities, and direct messages, in a 15+ member global team providing 24/7 support in English. A sixth product, PodcastFlow (AI podcast creation, podcastflow.ai), is in beta testing and being added to my support scope."
           },
           {
             "label": "Engineering-Level Resolution",
